@@ -1,0 +1,92 @@
+html {
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    font-family: '';
+    margin: 0;
+    padding: 0; 
+}
+
+header {
+    grid-area: header;
+}
+
+.section1 {
+    grid-area: section1;
+}
+
+.section2 {
+    grid-area: section2;
+}
+
+.section3 {
+    grid-area: section3;
+}
+
+.section4 {
+    grid-area: section4;
+}
+
+.section5 {
+    grid-area: section5;
+}
+
+.section6 {
+    grid-area: section6;
+}
+
+footer {
+    grid-area: footer;
+}
+
+/*alt style i css skal skrives ovenover containeren ved mobilversionen*/
+.web-nav {
+    display: none; 
+}
+
+.container {
+    display: grid;
+    padding: 0px; 
+    gap: 0px; 
+    grid-template-areas: 
+    "header"
+    "section1"
+    "section2"
+    "section3"
+    "section4"
+    "section5"
+    "section6"
+    "footer"
+}
+
+/*alt style til desktop skrives nedenunder nedenstående mediaqueries*/
+
+@media (min-width: 900px) {
+    .container {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: 
+        "header header header header"
+        ""
+        ""
+    }
+
+    .header {
+        position: absolute; 
+        background-image: "#";
+    }
+
+    .web-nav {
+        display: grid;
+    }
+
+    /* ul skal være med: position: relative;*/
+
+    .mobile-nav {
+        display: none; 
+    }
+
+    
+
+}
