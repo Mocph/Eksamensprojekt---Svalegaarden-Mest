@@ -1,0 +1,227 @@
+html {
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    font-family: '';
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 600;
+}
+
+
+
+header {
+    grid-area: header;
+}
+
+.section1 {
+    grid-area: section1;
+}
+
+.section2 {
+    grid-area: section2;
+}
+
+.section3 {
+    grid-area: section3;
+}
+
+.section4 {
+    grid-area: section4;
+}
+
+.section5 {
+    grid-area: section5;
+}
+
+.section6 {
+    grid-area: section6;
+}
+
+footer {
+    grid-area: footer;
+}
+
+/*alt style i css skal skrives ovenover containeren ved mobilversionen*/
+.web-nav {
+    display: none; 
+}
+
+
+}
+
+.container {
+    display: grid;
+    padding: 0px; 
+    gap: 0px; 
+    grid-template-areas: 
+    "header"
+    "section1"
+    "section2"
+    "section3"
+    "section4"
+    "section5"
+    "section6"
+    "footer"
+}
+
+/*alt style til desktop skrives nedenunder nedenstående mediaqueries*/
+
+
+@media screen and (max-width: 400px) {
+
+    header {position: relative;
+        background-image: url("../image/120408369_2304930609653505_3924886524250462159_n.jpg");
+        height: 30vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        
+    }
+
+    .section1 {
+        color: black;
+    }
+
+    .section2 {
+        margin-top: 5vh;
+    }
+
+    .section4, .section6 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .articleimage {
+        position: relative;
+        background-image: url("../image/Konfirmation-min.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 20vh;
+        width: 100%;
+    }
+
+    .btn {
+        position: absolute;
+        margin-top: -10px;
+        padding: 10px;
+        background-color:green;
+        border: none;
+        border-radius: 8px;
+        color: #1B2557;
+    
+    }
+
+    
+
+    .tekstcon {
+        background-color:#1B2557;
+        color: white;
+    }
+
+    .tekstcon p {
+        padding: 30px;
+    }
+
+    .tilbage {
+        position: absolute;
+        padding: 10px;
+    }
+
+    .logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .burgermenu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 13px;
+    }
+
+
+    .section1 article {
+        text-align: center;
+        font-size: 10px;
+        margin: auto;
+        width: 80vw;
+        margin-top: 40px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+    }
+
+/* Footer herunder: */
+
+footer {
+    padding-top: 3vh;
+    background-color: #EBEBEB;
+}
+
+.logofooter {
+    width: 50vw;
+    padding: 70px;
+}
+
+.footercon {
+    margin-top: 2vh;
+    display: flex;
+}
+
+.venstrefooter {
+    margin-left: 8vw;
+}
+
+.højrefooter {
+    margin-left: 5vw;
+}
+
+.telefon {
+    margin-top: 5vh;
+}
+
+.social {
+    margin-top: 13vh;
+}
+
+}
+
+
+
+
+
+
+@media (min-width: 900px) {
+    .container {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: 
+        "header header header header"
+        ""
+        ""
+    }
+
+    
+
+    .web-nav {
+        display: grid;
+    }
+
+    /* ul skal være med: position: relative;*/
+
+    .mobile-nav {
+        display: none; 
+    }
+
+    
+    
+
+}
+
+
+
+
