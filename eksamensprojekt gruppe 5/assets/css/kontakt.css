@@ -71,10 +71,10 @@ footer {
 @media screen and (max-width: 400px) {
 
     header {position: relative;
-        background-image: url("../image/120408369_2304930609653505_3924886524250462159_n.jpg");
+        background-image: url("../image/Forside\ billede-min.jpg");
         height: 30vh;
         width: 100%;
-        background-position: center;
+        background-position: bottom;
         background-size: cover;
         
     }
@@ -87,29 +87,78 @@ footer {
         margin-top: 5vh;
     }
 
-    .section4, .section6 {
-        margin: 0;
-        padding: 0;
+    .section3 {
+        height: 10vh;
+        font-size: 15px;
+        margin: auto;
     }
+
+
+    .section4 {
+        color: white;
+        padding-bottom: 5vh;
+        background-color: #1B2557;
+    }
+
+    .section4 h2 {
+        border-bottom: 1px solid rgb(255, 255, 255);
+        height: 5vh;
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .sectioncontainer {
+        width: 80vw;
+        outline: 1px dashed white;
+        margin: auto;
+        outline: 1px dashed white;
+        outline-offset: 10px;
+        padding-bottom:20px;
+        margin-top: 40px;
+    }
+
+    article p {
+    
+        margin: auto;
+        width: 80vw;
+        margin-top: 40px;
+        
+        
+    }
+
+ 
+
+    
 
     .articleimage {
         position: relative;
         background-image: url("../image/Konfirmation-min.jpg");
         background-size: cover;
         background-position: center;
-        height: 20vh;
+        height: 25vh;
         width: 100%;
     }
 
     .btn {
-        position: absolute;
-        margin-top: -10px;
+        width: 40vw;
+        margin: auto;
+        margin-top:3vh;
+        display: block;
         padding: 10px;
-        background-color:green;
+        background-color:rgb(170, 231, 170);
         border: none;
         border-radius: 8px;
         color: #1B2557;
     
+    }
+
+    .btncontainer {
+        margin-top: 10vh;
+    }
+
+    #afbestilling {
+        background-color: rgb(128, 125, 125);
     }
 
     
@@ -155,8 +204,9 @@ footer {
 /* Footer herunder: */
 
 footer {
-    padding-top: 3vh;
+    padding-top: 5vh;
     background-color: #EBEBEB;
+    
 }
 
 .logofooter {
