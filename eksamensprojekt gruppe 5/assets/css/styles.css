@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font-family: '';
+    font-family: 'Open sans'; 
     margin: 0;
     padding: 0; 
 }
@@ -38,8 +38,172 @@ header {
 }
 
 footer {
-    grid-area: footer;
+    grid-area: footer; 
+    display: block; 
+    background-color: #EBEBEB; 
 }
+
+.pmenu{ 
+    display: block; 
+    width: 100vw; 
+    height: 110px; 
+    color: #FFFFFF; 
+    background-color: #96192B; 
+
+.articleimage{ 
+    display: block; 
+    
+    background-size: 375px 140px; 
+    background-repeat: no-repeat; 
+} 
+
+#svalegaardenEfteraar{ 
+    background-image: 
+} 
+
+#svalegaardenVinter{ 
+    background-image: 
+} 
+
+#menubrunch{ 
+    background-image: url("/assets/image/brunch.jpg"); 
+    background-position: 
+} 
+
+#menubuffet{ 
+    background-image: url("/assets/image/Buffet\ 2.jpg"); 
+    background-position: 
+} 
+
+.priser{ 
+    display: block; 
+    width: 300px; 
+    margin: 0 auto; 
+    line-height: 1; 
+    text-align: center; 
+    border-top: 1px solid #666666; 
+    border-bottom: 1px solid #666666; 
+} 
+
+
+
+
+.heroimage{ 
+  display: block; 
+  width: 100vw; 
+  height: 288px; 
+  background-image: url("/assets/image/Forside\ billede.jpg"); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  opacity: 80%; 
+} 
+
+h2{ 
+    display: block; 
+    width: 180px; 
+    font-size: 14px; 
+    color: #FFFFFF; 
+    text-align: center; 
+    margin: 0 auto; 
+} 
+
+.ulpriser{ 
+    display: block; 
+    width: 280px; 
+    border: 1px solid red; 
+    list-style: none; 
+    text-align: center; 
+    margin-left: auto; 
+    margin-right: auto; 
+} 
+
+.divheader{ 
+    display: block; 
+    background-color: #FFFFFF; 
+    color: #96192B; 
+    text-align: center; 
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.5); 
+} 
+
+.menubackground{ 
+    display: block; 
+    width: 100vw; 
+    height: 1100px; 
+    margin: 0; 
+    background-color: #96192B; 
+    justify-content: center; 
+    padding-top: 10px; 
+} 
+
+/* Højde på baggrund */ 
+#backgroundEfterår{ 
+    height: 1100px; 
+} 
+
+#backgroundVinter{ 
+    height: 1200px; 
+} 
+
+#backgroundForår{ 
+    height: 1100px; 
+} 
+
+#backgroundSommer{ 
+    height: 1190px; 
+} 
+
+#backgroundClassicMest{ 
+    height: 
+} 
+
+#borderEfterår{ 
+    height: 1050px; 
+} 
+
+#borderVinter{ 
+    height: 1100px; 
+} 
+
+#borderForår{ 
+    height: 1000px; 
+} 
+
+#borderSommer{ 
+    height: 1080px; 
+} 
+
+.menuborder{ 
+    display: block; 
+    margin-top: 50px; 
+    margin-left: 10vw; 
+    width: 80vw; 
+    height: 1050px; 
+    border: 2px dashed #FFFFFF; 
+    align-content: center; 
+    align-self: center; 
+} 
+
+.efterårMenu{ 
+    text-align: center; 
+} 
+.ret{ 
+    display: block; 
+    font-size: 20px; 
+    width: 135px; 
+    color: white; 
+    text-align: center; 
+    justify-self: center; 
+    border-bottom: 2px solid #FFFFFF; 
+    margin: 0 auto; 
+} 
+
+
+
+.rettekst{ 
+    display: block; 
+    color: white; 
+    line-height: 1.5; 
+} 
 
 /*alt style i css skal skrives ovenover containeren ved mobilversionen*/
 .web-nav {
