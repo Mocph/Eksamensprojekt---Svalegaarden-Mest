@@ -13,27 +13,27 @@ header {
     grid-area: header;
 }
 
-.sp-section_tekst-1 {
+.me-section_tekst {
     grid-area: section-1;
 }
 
-.sp-section_selskaber {
+.me-section_brunch-menu {
     grid-area: section-2;
 }
 
-.sp.section_tekst-2{
+.me-section_buffet-menu {
     grid-area: section-3;
 }
 
-.sp-section_menuer {
+.me-section_classic-menu {
     grid-area: section-4;
 }
 
-.sp_section_tekst-3 {
+.me-section_årstids-menu {
     grid-area: section-5;
 }
 
-.sp-section_møder-og-konferencer {
+.me-section_weekend-menu {
     grid-area: section-6;
 }
 
@@ -41,14 +41,17 @@ footer {
     grid-area: footer;
 }
 
+
 .headtop {
-    background-image: url("../image/Forside-mobile.jpg");
+    background-image: url("../image/Svalegaarden-mest-forår-mobile.jpg");
     position: relative;
     background-size: cover;  
     background-position: center;
     background-repeat: no-repeat; 
     padding: 10px;
-    height: 300px;  
+    height: 300px; 
+    
+    
 }
 
 .mobile-nav {
@@ -70,11 +73,10 @@ footer {
     top: 58%; 
     left: 50%; 
     transform: translate(-50%, -58%);
-    font-weight: 400;
+    font-weight: 500;
     width: 200px; 
     text-shadow: 0px -0.5px 15px rgba(0, 0, 0, 0.87);
     color: white; 
-    
 }
 
 #bars {
@@ -86,7 +88,7 @@ footer {
     
 }
 
-.sp-article_introtekst{
+.me-article_introtekst {
     text-align: center;
     padding: 10px; 
     margin: 30px;
@@ -96,15 +98,42 @@ footer {
      
 }
 
-
-.sp-section_selskaber {
-    background-image: url("../image/Bryllup-lys-\(1-147\).jpg");
+.me-section_brunch-menu {
+    background-image: url("../image/Brunch147.jpg");
     background-size: 100% 147px;
     background-position: top;
     background-repeat: no-repeat;
 }
 
-.btn1, .btn2, .btn3 {
+.me-section_buffet-menu {
+    background-image: url("../image/gourmet-buffet147.jpg");
+    background-size: 100% 147px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.me-section_classic-menu {
+    background-image: url("../image/chicken147.jpg");
+    background-size: 100% 147px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.me-section_årstids-menu {
+    background-image: url("../image/årstider147.jpg");
+    background-size: 100% 147px;
+    background-position: top;
+    background-repeat: no-repeat;  
+}
+
+.me-section_weekend-menu{
+    background-image: url("../image/spis-hos-mest147.jpg");
+    background-size: 100% 147px;
+    background-position: top;
+    background-repeat: no-repeat;  
+}
+
+.btn-1, .btn-2, .btn-3, .btn-4, .btn-5{
     z-index: 1;
     padding: 10px 18px;
     font-size: 16px;
@@ -113,86 +142,78 @@ footer {
     background-color: white; 
     border-radius: 5px; 
     text-align: center; 
-    outline: none; 
+    color: #96192b;
     box-shadow:0 1.5px #232324e1, 0 2px 6px hsla(0, 0%, 0%, 0.562);
+    outline: none;   
 
 }
 
-.btn1:hover, .btn2:hover, .btn3:hover{
-    background-color:#97989cb9;
+.btn-1:hover, .btn-2:hover, .btn-3:hover, .btn-4:hover, .btn-5:hover{
+    background-color:#97989cad;
     color: white;
     border:1px solid white; 
 }
 
-.btn1 {
+.btn-1 {
+    display: inline-block;
+    position: relative;
+    top: 55%;
+    left: 50%; 
+    transform: translate(-50%, -55%);
+    -ms-transform: translate(-50%, -55%);  
+}
+
+.btn-2 {
     display: inline-block;
     position: relative;
     top: 55%;
     left: 50%; 
     transform: translate(-50%, -55%);
     -ms-transform: translate(-50%, -55%);
-    color: #1B2557; 
+    
 }
 
-.btn2 {
+.btn-3 {
     display: inline-block;
     position: relative;
     top: 55%;
     left: 50%; 
     transform: translate(-50%, -55%);
     -ms-transform: translate(-50%, -55%);
-    color: #96192b; 
+
 }
 
-.btn3 {
+.btn-4 {
     display: inline-block;
     position: relative;
-    top: 55%;
+    top: 60%;
     left: 50%; 
-    transform: translate(-50%, -55%);
-    -ms-transform: translate(-50%, -55%);
-    color: #666666;
+    transform: translate(-50%, -60%);
+    -ms-transform: translate(-50%, -60%);
 }
 
+.btn-5 {
+    display: inline-block;
+    position: relative;
+    top: 60%;
+    left: 50%; 
+    transform: translate(-50%, -60%);
+    -ms-transform: translate(-50%, -60%);
+}
 
-.sp-paragraph_selskab, .sp-paragraph_menuer, .sp-paragraph_møder-konferencer{
+.me-paragraph_brunch, .me-paragraph_buffet, .me-paragraph_classic, .me-paragraph_årstid, .me-paragraph_weekend{
     position: relative;  
     padding: 30px;  
     margin-top: 108px;
     margin-bottom: 0px;  
-    background-color: #1B2557;
+    background-color:#96192b;
     color: whitesmoke;
     line-height: 22px;
 }
 
-.sp-paragraph_menuer {
-    background-color: #96192b; 
-}
-
-.sp-paragraph_møder-konferencer {
-    background-color: #666666; 
-}
-
-
-.sp-section_menuer {
-    background-image: url("../image/mad-forside147px.jpg");
-    background-size: 100% 147px;
-    background-position: top;
-    background-repeat: no-repeat;
-}
-
-
-.sp-section_møder-og-konferencer {
-    background-image: url("../image/Møder-og-konferencer3.jpg");
-    background-size: 100% 147px;
-    background-position: top;
-    background-repeat: no-repeat;
-
-}
-
 footer {
     background-color: #EBEBEB;  
-    margin-top: 100px; 
+    
  }
  
  .logo-bottom {
@@ -203,38 +224,32 @@ footer {
      transform: translate(-50%, 50%);
  }
  
- .sp-footer_kontaktinfo {
+ .me-footer_kontaktinfo {
      padding: 25px; 
      display: block; 
      float: left;
  }
  
- .sp-footer_adresse {
-     padding: 25px;     
+ .me-footer_adresse{
+     padding: 25px; 
+     display: block;    
  }
  
- .sp-footer_telefontid {
+ .me-footer_telefontid {
      margin-top: 35px; 
  }
  
- .sp-footer_medier {
+ .me-footer_medier {
      margin-top: 100px; 
  }
 
- .sp-footer_bold {
+ .me-footer_bold {
      font-weight: bold;
  }
  
 
 
 
-
-
-
-
-
-
-/*alt style i css skal skrives ovenover containeren ved mobilversionen*/
 .web-nav {
     display: none; 
 }
@@ -255,43 +270,20 @@ footer {
     "footer"
 }
 
-
-
 /*alt style til desktop skrives nedenunder nedenstående mediaqueries*/
 
 @media (min-width: 900px) {
+
+   
     .container {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         grid-template-areas: 
-        "header header header"
-        "section-2 section-4 section-6"
-        "footer footer footer";
+        "header header header header header"
+        ""
+        "footer footer footer footer footer "
     }
 
-    .headtop {
-        background-image: url("../image/Forside-mobile.jpg");
-        position: relative;
-        background-size: cover;  
-        background-position: center;
-        background-repeat: no-repeat; 
-        padding: 10px;
-        
 
-    }
-    .logotop-nav {
-        position: absolute; 
-        top: 50%; 
-        left: 50%; 
-        transform: translate(-50%, -50%); 
-    }
-
-    .headline-nav {
-        width: 100%;
-    }
-
-    .sp-section_selskaber, .sp-section_menuer, .sp-section_møder-og-konferencer {
-        margin-top: 20px; 
-    }
 
     .web-nav {
         display: grid;
@@ -303,43 +295,4 @@ footer {
         display: none; 
     }
 
-    .sp-section_tekst-1, .sp-section_tekst-2, .sp-section_tekst-3{
-        display: none; 
-    }
-
-    footer {
-        margin-top: 0px; 
-    }
-
-    .btn1 {
-        display: inline-block;
-        position: relative;
-        top: 50%;
-        left: 50%; 
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        color: #1B2557; 
-    }
-    
-    .btn2 {
-        display: inline-block;
-        position: relative;
-        top: 50%;
-        left: 50%; 
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        color: #96192b; 
-    }
-    
-    .btn3 {
-        display: inline-block;
-        position: relative;
-        top: 50%;
-        left: 50%; 
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, 50%);
-        color: #666666;
-    }
-
 }
-

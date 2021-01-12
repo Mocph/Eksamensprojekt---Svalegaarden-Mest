@@ -3,18 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Startpage</title>
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+   
 </head>
 <body>
 <div class="container">
-    <header>
+    <header class="headtop">
         <nav class="mobile-nav">
-            <i class=""></i>
-            <img class="logotop" src="" alt="">
-            <h2>Mindeværdige oplevelser i historiske omgivelser</h2>
+            <i class="fa fa-bars" id="bars" style="font-size:24px; color: white;"></i>
+            <img class="logotop" src="assets/image/svalegaarden_logo_white.svg" style="width: 80%;" alt="">
+            <h3 class="headline-nav">Mindeværdige oplevelser i historiske omgivelser</h3>
         </nav>
 
         <nav class="web-nav">
+            <img class="logotop-nav" src="assets/image/svalegaarden_logo_white.svg" style="width: 50%;" alt="">
+            <h1 class="headline-nav">Mindeværdige oplevelser i historiske omgivelser.</h1>
+
             <ul>
                 <li><a href="">Forside</a></li>
                 <li><a href="">Svalegaarden Mest</a></li>
@@ -27,69 +35,73 @@
 
     </header>
 
-    <section class="section1">
-        <article>
+    <section class="sp-section_tekst-1" id="perfekt fest">
+        <article class="sp-article_introtekst" id="perfekt fest">
             <h1>Få den perfekte fest i hjertet af Hasseris med Svalegaarden Mest.</h1>
         </article>
     </section>
 
-    <section class="section2">
-        <img class="articleimage" id="imageselskaber" src="">
-        <button class="btn" id="selskaberbtn">SE VORES SELSKABER</button>
-        <p>Få den perfekte dag med Svalegaarden Mest i Hasseris som arrangør. Vores charmerende lokaler danner rammerne om dit arrangement.</p>
+    <section class="sp-section_selskaber">
+          <!--  <img class="articleimage" id="imageselskaber" src="assets/image/Bryllup-lys-mobile.jpg" width="100%">-->
+            <button class="btn1" id="selskaberbutton">SE VORES SELSKABER</button>
+            <p class="sp-paragraph_selskab">Få den perfekte dag med Svalegaarden Mest i Hasseris som arrangør med vores charmerende lokaler til dit arrangement.</p>
+
     </section>
 
-    <section class="section3">
-        <article>
+    <section class="sp-section_tekst-2" id="gastronomi-og-kultur">
+        <article class="sp-article_introtekst" id="gastronomi-og-kultur-paragraph">
             <h1>Vi sætter rammen for gastronomiske- og kulturelle oplevelser</h1>
         </article>
     </section>
 
-    <section class="section4">
-        <img class="articleimage" id="imagemenu" src="">
-        <button class="btn" id="menubtn">OPLEV VORES MENUER</button>
-        <p>Oplev vores store udvalg af gastronomiske smagsoplevelser. Vi sammensætter menuer ud fra årstidernes bedste råvarer.</p>
+    <section class="sp-section_menuer">
+        <button class="btn2" id="menubtn">OPLEV VORES MENUER</button>
+        <p class="sp-paragraph_menuer">Oplev vores store udvalg af gastronomiske smagsoplevelser. Vi sammensætter menuer ud fra årstidernes bedste råvarer.</p>
     </section>
-    <section class="section5">
-        <article>
+
+    <section class="sp-section_tekst-3" id="omgivelser">
+        <article class="sp-article_introtekst" id="omgivelser-paragraph">
             <h1>På arbejde i rolige og naturgrønne omgivelser</h1>
         </article>
     </section>
 
-    <section class="section6">
-        <img class="articleimage" id="imagemøder" src="">
-        <button class="btn" id="møderbtn">MØDER OG KONFERENCER</button>
-        <p>indsæt her tekst om møder og konferencer</p>
+    <section class="sp-section_møder-og-konferencer">
+        <button class="btn3" id="møder-konferencer">MØDER OG KONFERENCER</button>
+        <p class="sp-paragraph_møder-konferencer" id="møder-kon-paragraph"> Vi kan klare en konference, et møde eller kursus på op til 60 personer, og lokalerne er udstyret med diverse faciliteter.</p>
     </section>
 
     <footer>
-        <img class="logo" src="" alt="">
-        <div>
-            <p>Kontakt os:</p>
-            <p>Telefon køkken:</p>
-            <p>+4551905554</p>
-            <p>Telefon administration:</p>
-            <p>+4532709210</p>
+        <img class="logo-bottom" src="assets/image/svalegaarden_logo_grey.svg" style="width: 80%;" alt="logo-bottom">
+        <div class="sp-footer_kontaktinfo">
+            <div>
+                <p>Kontakt os:</p>
+                <p>Telefon køkken:</p>
+                <p class="sp-footer_bold">+4551905554</p>
+                <p>Telefon administration:</p>
+                <p class="sp-footer_bold">+4532709210</p>
+            </div>
+            <div class="sp-footer_telefontid">
+                <p>Telefontid:</p>
+                <p>Hverdage 10-16</p>
+                <p>Weekend 09-16</p>
+            </div>
         </div>
 
-        <div>
-            <p>Telefontid:</p>
-            <p>Hverdage 10-16</p>
-            <p>Weekend 09-16</p>
-        </div>
-
-        <div>
-            <p>Svalegaarden Mest</p>
-            <p>Einars Packness vej 2</p>
-            <p>9000 Aalborg</p>
-        </div>
-
-        <div>
-            <p>
-                Følg os:
-            </p>
-            <i class="icon" id="facebookicon"></i>
-            <i class="icon" id="instagramicon"></i>
+        <div class="sp-footer_adresse">
+            <div>
+                <p>Svalegaarden Mest</p>
+                <p>Einars Packness vej 2</p>
+                <p>9000 Aalborg</p>
+            </div>    
+       
+            <div class="sp-footer_medier">
+                <p>
+                    Følg os:
+                </p>
+                <i class="fab fa-facebook-squareicon" id="facebookicon"></i>
+                <i class="fab fa-instagram-square"id="instagramicon">
+                </i>
+            </div>
         </div>
     </footer>
 </div>
