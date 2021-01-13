@@ -68,6 +68,7 @@ footer {
 
 /*alt style til desktop skrives nedenunder nedenstående mediaqueries*/
 
+
 @media screen and (max-width: 400px) {
 
     header {position: relative;
