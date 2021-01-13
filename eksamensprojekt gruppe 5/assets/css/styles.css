@@ -49,6 +49,7 @@ footer {
     height: 110px; 
     color: #FFFFFF; 
     background-color: #96192B; 
+} 
 
 .articleimage{ 
     display: block; 
@@ -58,21 +59,27 @@ footer {
 } 
 
 #svalegaardenEfteraar{ 
-    background-image: 
+    background-image: url("../image/SvalegaardenMestEfteraar.jpg"); 
+    width: 100vw; 
+    height: 140px; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: -30%; 
+    margin-top: 30px; 
 } 
 
 #svalegaardenVinter{ 
-    background-image: 
+    background-image: url("../image/SvalegaardenMestVinter.jpg"); 
 } 
 
 #menubrunch{ 
     background-image: url("/assets/image/brunch.jpg"); 
-    background-position: 
+  /*   background-position: */ 
 } 
 
 #menubuffet{ 
     background-image: url("/assets/image/Buffet\ 2.jpg"); 
-    background-position: 
+   /* background-position: */ 
 } 
 
 .priser{ 
@@ -85,8 +92,9 @@ footer {
     border-bottom: 1px solid #666666; 
 } 
 
-
-
+.headerPriser{ 
+    display: none; 
+} 
 
 .heroimage{ 
   display: block; 
@@ -153,7 +161,7 @@ h2{
 } 
 
 #backgroundClassicMest{ 
-    height: 
+    height: 1000px; 
 } 
 
 #borderEfterår{ 
@@ -178,8 +186,9 @@ h2{
     margin-left: 10vw; 
     width: 80vw; 
     height: 1050px; 
-    border: 2px dashed #FFFFFF; 
-    align-content: center; 
+    outline: 2px dashed #FFFFFF; 
+/*    border: 2px dashed #FFFFFF; */ 
+    
     align-self: center; 
 } 
 
@@ -197,7 +206,10 @@ h2{
     margin: 0 auto; 
 } 
 
-
+.retbox{ 
+    display: block; 
+    margin: 0 auto; 
+} 
 
 .rettekst{ 
     display: block; 
@@ -232,8 +244,9 @@ h2{
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas: 
         "header header header header"
-        ""
-        ""
+        "  section3 section3 section3 section3" 
+        " section3 section3 section3 section3" 
+        "footer footer footer footer"; 
     }
 
     .header {
@@ -241,9 +254,192 @@ h2{
         background-image: "#";
     }
 
+    .menubackground{ 
+        margin-top: 20px; 
+    } 
+
+    .priser{ 
+        display: none; 
+    } 
+
+    .headerPriser{ 
+        display: block; 
+        width: 300px; 
+        color: #FFFFFF; 
+        margin: 0 auto; 
+        text-align: center; 
+    } 
+
+    .section3{ 
+        background-size: cover; 
+        height: 1050px; 
+        vertical-align: middle; 
+    } 
+
+    /* Baggrundsbillede menuer desktop */ 
+    #backgroundDesktopClassic{ 
+        background-image: url("../image/Classic\ menu.jpg"); 
+        
+    } 
+
+    #backgroundDesktopEfterår{ 
+        
+    } 
+
+    #backgroundDesktopForår{ 
+
+    } 
+
+    #backgroundDesktopSommer{ 
+        background-image: url("../image/Sommer.jpg"); 
+        position: -50%; 
+    } 
+
+    #backgroundDesktopVinter{ 
+        background-image: url("../image/SvalegaardenMestVinter.jpg"); 
+    } 
+
+
     .web-nav {
-        display: grid;
+        display: grid; 
     }
+
+    .navigation{ 
+        list-style-type: none; 
+    } 
+
+    a{ 
+        text-decoration: none; 
+        color: #000000; 
+    } 
+
+#backgroundClassicMest, #backgroundVinter, #backgroundEfterår, #backgroundForår, #backgroundSommer{ 
+    width: 670px; 
+    background-color: rgba(150,25,43,0.7); 
+    margin: 0 auto; 
+} 
+
+    #backgroundClassicMest{ 
+        height: 900px;     
+    } 
+
+    #backgroundEfterår{ 
+        height: 1100px; 
+    } 
+    
+    #backgroundVinter{ 
+        height: 900px; 
+    } 
+    
+    .efterårMenu{ 
+        display: block; 
+        margin: 0 auto; 
+    } 
+
+    .menuborder{ 
+/*        border: none; */ 
+        outline: none; 
+    }     
+    
+    .rettekst{ 
+        font-size: 14px; 
+    } 
+
+    .retbox{ 
+        width: 520px; 
+        margin-bottom: 100px; 
+    } 
+
+    .divheader{ 
+        display: none; 
+    } 
+
+    .headerDesktop, .prisOverskrift{ 
+        display: block; 
+        width: 130px; 
+        height: 30px; 
+        color: #FFFFFF; 
+        text-align: center; 
+        font-size: 20px; 
+        border-bottom: 2px solid #FFFFFF; 
+        margin: 0 auto; 
+        font-weight: bold; 
+    } 
+
+    .headerDesktop{ 
+        margin-bottom: 50px; 
+    } 
+
+    .menuButton{ 
+        display: flex; 
+        width: 140px; 
+        height: 40px; 
+        font-size: 15px; 
+        text-align: center; 
+        justify-content: center; 
+        align-items: center; 
+        margin: auto; 
+        color: #FFFFFF; 
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5); 
+    } 
+
+    #kontaktButton{ 
+        font-weight: bold; 
+        background-color: yellow; 
+    } 
+
+    #prisButton{ 
+        background-color: green; 
+    } 
+
+    /* Footer */ 
+    footer {
+        position: relative;
+        padding-top: 5vh;
+        background-color: #EBEBEB;
+        
+    }
+    
+    .logofooter {
+        width: 50vw;
+        padding: 70px;
+        margin-left: 10vh;
+    }
+    
+    .footercon {
+        margin-top: 2vh;
+        display: flex;
+    }
+    
+    .venstrefooter {
+        margin-left: 8vw;
+    }
+    
+    .højrefooter {
+        margin-left: 5vw;
+    }
+    
+    .telefon {
+        margin-top: 5vh;
+    }
+    
+    .social {
+        margin-top: 13vh;
+        position: absolute;
+        right: 15vw;
+        
+    }
+
+    .footerbillede {
+        background-image: url(../image/Sort\ hvid-min.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 20vh;
+        width: 20vw;
+        position: absolute;
+        right: 0;
+        top: 16vh; 
+    } 
 
     /* ul skal være med: position: relative;*/
 
