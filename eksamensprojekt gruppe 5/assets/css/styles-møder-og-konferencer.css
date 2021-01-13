@@ -21,7 +21,7 @@ header {
     grid-area: section-2;
 }
 
-.mk-section_dagsmøde-test {
+.mk-section_dagsmøde-tekst {
     grid-area: section-3
 }
 
@@ -125,7 +125,7 @@ footer {
 }
 
 
-.mk-article_paragraph-pris {
+.mk-article_paragraph-pris-1, .mk-article_paragraph-pris-2 ,.mk-article_paragraph-pris-3 {
     box-sizing: border-box;
     background-color:#31571b;  
     color: white; 
@@ -182,7 +182,18 @@ footer {
      font-weight: bold;
  }
 
+ .logo-bottom-web {
+     display: none;
+ }
+
+ .mk-section_dagsmøde-image-web {
+     display: none; 
+ }
 .web-nav {
+    display: none; 
+}
+
+.container-web {
     display: none; 
 }
 
@@ -208,21 +219,145 @@ footer {
 
 @media (min-width: 900px) {
     .container {
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-areas: 
-        "header header header header"
-        ""
-        ""
+        column-gap: 20px;
+        grid-template-columns: repeat(14, 1fr);
+        grid-template-areas: ""
+
     }
 
-    .header {
-        position: absolute; 
-        background-image: "#";
+
+
+  
+
+
+
+   .mk-section_dagsmøde-image {
+       padding-top: 40px; 
+   }
+
+   .head-top-web {
+       display: grid;
+       grid-column:1/15; 
+       position: relative;
+       background-image: url("../image/Forside-web.jpg");
+       height: 40vh;
+       width: 100%;
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       margin-bottom: 50px; 
+   }
+    
+   .logo-bottom {
+       display: none; 
+   }
+   
+   .head-top {
+       display: none;
+   }
+
+   .logo-top-web {
+       position: absolute;
+       bottom: 120%; 
+       left: 50%; 
+       transform: translate(-50%, -120%)
+
+   }
+
+    .mk-section_information {
+        display: none; 
     }
 
     .web-nav {
-        display: grid;
+        display: inline-flex;
+        justify-content: space-around;
+        border: none; 
+        position: absolute; 
+        bottom: 0; 
+        background-color: white; 
+        width: 100%;
+     
+    
     }
+
+    ul li {
+        display: inline; 
+        list-style: none;
+    }
+
+    ul li a {
+        text-decoration: none; 
+        color: black; 
+        padding: 20px; 
+    }
+
+
+    .mk-section_dagsmødebillede, .mk-section_dagsmøde-tekst {
+        display: grid;
+        grid-column: 2/6 ; 
+
+        
+        
+    }
+
+    .mk-section_aftenmøde-billede {
+        display: grid;
+        grid-column: 6/10; 
+        grid-row-start: 2; 
+    }
+
+    .mk-section_aftenmøde {
+        grid-column:6/10;
+        grid-row-start:4; 
+
+    }
+
+    .mk-section_heldagsmøde-billede {
+        display: grid; 
+        grid-column: 10/14 ;
+        grid-row-start: 2; 
+    }
+
+    .mk-section_heldagsmøde {
+        grid-column: 10/14 ; 
+        grid-row-start: 4; 
+    }
+
+    .mk-article_heldagsmøde, .mk-article_dagsmøde ,.mk-article_aftenmøde {
+        box-sizing: border-box;
+        height: 250px;
+    }
+
+    
+    
+    .mk-article_paragraph-pris-2 {
+        position: static;
+        margin-top: 100px; 
+   
+    }   
+
+    .mk-article_paragraph-pris-3 {
+        margin-top: 70px; 
+    }
+
+    .mk-paragraph_bold-1, .mk-paragraph_bold-2 ,.mk-paragraph_bold-3 {
+        font-weight: bold;
+    }
+
+    footer {
+        grid-column: 1/15; 
+    }
+    
+    .mk-section_headline-heldagsmøde, .mk-headline_dagsmøde-h3, .mk-section_headline-aftenmøde {
+        border-left: 0.5px solid lightgrey; 
+        border-right: 0.2px solid lightgrey;
+    }
+
+
+
+    
+    
+    
 
     /* ul skal være med: position: relative;*/
 
