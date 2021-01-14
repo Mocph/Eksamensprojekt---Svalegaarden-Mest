@@ -89,6 +89,13 @@ footer {
     
 }
 
+#arrow {
+    background-color: black;
+    border-radius: 50%; 
+    border: 1px solid black; 
+    padding: 8px; 
+}
+
 .bf-article_text {
     text-align: center;
     padding: 10px; 

@@ -166,26 +166,47 @@ footer {
     .tekstcon p {
         padding: 30px;
     }
-
+/*
     .tilbage {
         position: absolute;
         padding: 10px;
     }
-
+*/
     .logo {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
-
+/*
     .burgermenu {
         position: absolute;
         top: 0;
         right: 0;
         padding: 13px;
     }
+*/
 
+.mobile-nav {
+    padding: 10px; 
+}
+
+#bars{
+    background-color: black; 
+    border-radius: 50%; 
+    border: 1px solid black;
+    padding: 8px; 
+    float: right;
+    
+}
+
+#arrow {
+    background-color: black;
+    border-radius: 50%; 
+    border: 1px solid black; 
+    padding: 8px; 
+    color: white; 
+}
     .section1 article {
         text-align: center;
         font-size: 10px;

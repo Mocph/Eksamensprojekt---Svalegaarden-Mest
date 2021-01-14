@@ -186,25 +186,47 @@ body {
         padding: 30px;
     }
 
+    .mobile-nav {
+        padding: 10px; 
+    }
+    
+    #bars{
+        background-color: black; 
+        border-radius: 50%; 
+        border: 1px solid black;
+        padding: 8px; 
+        float: right;
+        
+    }
+    
+    #arrow {
+        background-color: black;
+        border-radius: 50%; 
+        border: 1px solid black; 
+        padding: 8px; 
+        color: white; 
+    }
+
+/*
     .tilbage {
         position: absolute;
         padding: 10px;
     }
-
+*/
     .logo {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
-
+/*
     .burgermenu {
         position: absolute;
         top: 0;
         right: 0;
         padding: 13px;
     }
-
+*/
     .section1 article {
         text-align: center;
         font-size: 10px;
@@ -285,6 +307,10 @@ footer {
         left: 50%;
         transform: translate(-50%, -50%);
     } 
+
+    .mobile-nav {
+        display: none; 
+    }
 
     .web-nav {
         grid-area: web-nav;
@@ -467,7 +493,7 @@ footer {
     }
     
     .social {
-        margin-top: 10vh;
+        margin-top: 50px;
         position: absolute;
         right: 15vw;
         font-size: 18px;
@@ -481,10 +507,12 @@ footer {
         width: 20vw;
         position: absolute;
         right: 0;
-        top: 10vh;
+        top: 8vh;
     }
 
-
+    #facebookicon, #instagramicon {
+        font-size: 50px;
+    }
 
 }
 
