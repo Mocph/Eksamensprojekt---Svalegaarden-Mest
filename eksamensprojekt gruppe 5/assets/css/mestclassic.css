@@ -1,0 +1,463 @@
+html {
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    font-family: '';
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 600;
+}
+
+
+header {
+    grid-area: header;
+}
+
+.section1 {
+    grid-area: section1;
+}
+
+.section2 {
+    grid-area: section2;
+}
+
+.section3 {
+    grid-area: section3;
+}
+
+.section4 {
+    grid-area: section4;
+}
+
+.section5 {
+    grid-area: section5;
+}
+
+.section6 {
+    grid-area: section6;
+}
+
+footer {
+    grid-area: footer;
+}
+
+/*alt style i css skal skrives ovenover containeren ved mobilversionen*/
+.web-nav {
+    display: none; 
+}
+
+
+
+.container {
+    display: grid;
+    padding: 0px; 
+    gap: 0px; 
+    grid-template-areas: 
+    "header"
+    "section1"
+    "section2"
+    "section3"
+    "section4"
+    "section5"
+    "section6"
+    "footer"
+}
+
+/*alt style til desktop skrives nedenunder nedenstående mediaqueries*/
+
+@media screen and (max-width: 400px) {
+
+    header {position: relative;
+        background-image: url("../image/Classisk\ menu-min.jpg");
+        height: 30vh;
+        width: 100%;
+        background-position: bottom;
+        background-size: cover;
+        
+    }
+
+    .tilbage {
+        position: absolute;
+        padding: 10px;
+    }
+
+    .logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .burgermenu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 13px;
+    }
+
+    .section1 article {
+        text-align: center;
+        font-size: 10px;
+        margin: auto;
+        width: 80vw;
+        margin-top: 40px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+    }
+
+    .section1 {
+        color: black;
+    }
+
+    .section2 {
+        margin-top: 5vh;
+    }
+
+    .section3 {
+        font-size: 10px;
+        margin: auto;
+    }
+
+    .prisliste {
+        display: none;
+        padding: 0;
+    }
+
+    .section4 {
+        text-align: center;
+        color: white;
+        padding-bottom: 5vh;
+        background-color: #96192B;
+        line-height: 2;
+       
+    }
+
+    .section4 h2 {
+        border-bottom: 1px solid rgb(255, 255, 255);
+        width: 80%;
+        margin: auto;
+        margin-top: 7vh;
+        padding-bottom: 2vh;
+    }
+
+    .sectioncontainer {
+        width: 80vw; 
+        outline: 1px dashed white;
+        margin: auto;
+        outline-offset: 10px;
+        padding-bottom:20px;
+        margin-top: 40px;
+    }
+
+    article p { 
+        margin: auto;
+        margin-top: 40px;
+    }
+
+ 
+
+    
+
+    .articleimage {
+        position: relative;
+        background-image: url("../image/Buffet\ 2-min.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 25vh;
+        width: 100%;
+    }
+
+    .btn {
+        width: 40vw;
+        margin: auto;
+        margin-top:3vh;
+        display: block;
+        padding: 10px;
+        background-color:rgb(170, 231, 170);
+        border: none;
+        border-radius: 8px;
+        color: #1B2557;
+    
+    }
+
+    .btncontainer {
+        margin-top: 10vh;
+    }
+
+    #afbestilling {
+        background-color: rgb(128, 125, 125);
+    }
+
+    
+
+    .tekstcon {
+        background-color:#1B2557;
+        color: white;
+    }
+
+    .tekstcon p {
+        padding: 30px;
+    }
+
+    .minpersoner {
+        display: none;   
+    }
+
+/* Footer herunder: */
+
+footer {
+    padding-top: 5vh;
+    background-color: #EBEBEB;
+    
+}
+
+.logofooter {
+    width: 50vw;
+    padding: 70px;
+}
+
+.footercon {
+    margin-top: 2vh;
+    display: flex;
+}
+
+.venstrefooter {
+    margin-left: 8vw;
+}
+
+.højrefooter {
+    margin-left: 5vw;
+}
+
+.telefon {
+    margin-top: 5vh;
+}
+
+.social {
+    margin-top: 13vh;
+}
+
+.footerbillede {
+    display: none;
+}
+
+}
+
+
+
+
+
+@media screen and (min-width: 900px) {
+    /* .container {
+        grid-template-columns: repeat(3, 100vw);
+        grid-template-areas: 
+        "header header header header"
+        ".section4 .section4 .section4 .section4"
+        "footer footer footer footer"
+    } */
+
+    header {
+        position: relative;
+        background-image: url("../image/Classisk\ menu-min.jpg");
+        height: 40vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .logo {   
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    } 
+
+    .web-nav {
+        grid-area: web-nav;
+        display: inline-flex;
+        justify-content: space-around;
+        border: grey 1px solid;
+        position: absolute;
+        bottom: 0;
+        
+        background-color: white;
+        width: 100%;
+        
+    }
+
+    ul li {
+        display: inline;
+        list-style: none;
+        
+    }
+    
+    
+
+    ul li a {
+        text-decoration: none;
+        color: black;
+        padding: 20px;
+        
+    }
+
+    
+    
+
+    .tilbage, .burgermenu {
+        display: none; 
+        
+    }
+
+    .prisliste ul {
+        padding: 0;
+    }
+
+    article p { 
+        margin-top: 40px;
+    }
+
+    
+
+    .section1, .section2, .section3 {
+        display: none;
+    }
+
+    .section4 {
+        grid-area: section4;
+        color: white;
+        padding-bottom: 5vh;
+        background-image: url("../image/Buffet\ 2-min.jpg");
+        background-position: center;
+        background-size: cover;
+    
+        
+    }
+
+    .section4 h2 {
+        border-bottom: 1px solid rgb(255, 255, 255);
+        height: 5vh;
+        width: 50%;
+        margin: auto;
+        margin-top: 7vh;
+        padding-bottom: 2vh;
+    }
+    
+    .section4 article {
+        text-align: center;
+        width: 50vw;
+        margin: auto;
+        padding-top: 5vh;
+        line-height: 2;
+        
+    }
+    
+    h1 {text-align: center;
+    padding-bottom: 5vh;}
+
+    
+
+    .sectioncontainer {
+        width: 60vw;
+        margin: auto;
+        outline-offset: 10px;
+        padding-bottom:20px;
+        margin-top: 40px;
+        background-color: #96192cda;
+    }
+    
+    
+
+    /* .btn {
+        width: 20vw;
+        margin: auto;
+        margin-top:3vh;
+        display: block;
+        padding: 10px;
+        background-color:rgb(170, 231, 170);
+        border: none;
+        border-radius: 8px;
+        color: #1B2557;
+    
+    }
+
+    .btncontainer {
+        margin-top: 10vh;
+    }
+
+    #afbestilling {
+        background-color: rgb(128, 125, 125);
+    }
+
+
+    .googlemaps {
+        margin: 10vh auto;
+        background-image: url("../image/Google\ Maps.PNG");
+        background-size: auto;
+        width: 70vw;
+        height: 50vh;
+    } */
+
+    /* h3 {
+        text-align: center;
+        margin-top: 10vh;
+    } */
+
+    footer {
+        position: relative;
+        padding-top: 5vh;
+        background-color: #EBEBEB;
+        
+    }
+    
+    .logofooter {
+        width: 50vw;
+        padding: 70px;
+        margin-left: 10vh;
+    }
+    
+    .footercon {
+        margin-top: 2vh;
+        display: flex;
+    }
+    
+    .venstrefooter {
+        margin-left: 8vw;
+    }
+    
+    .højrefooter {
+        margin-left: 5vw;
+    }
+    
+    .telefon {
+        margin-top: 5vh;
+    }
+    
+    .social {
+        margin-top: 13vh;
+        position: absolute;
+        right: 15vw;
+        
+    }
+
+    .footerbillede {
+        background-image: url(../image/Sort\ hvid-min.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 20vh;
+        width: 20vw;
+        position: absolute;
+        right: 0;
+        top: 16vh;
+
+    
+    
+    }
+
+}
+
+
+
+
