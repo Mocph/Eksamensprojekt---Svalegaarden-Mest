@@ -256,14 +256,17 @@ footer {
 
 
 @media (min-width: 900px) {
-    .container {
+    /* .container {
         display: grid;
         grid-template-columns: repeat(4, 25vw);
         grid-template-areas: 
         "header header header header"
         "section4 section4 section6 section6"
         "footer footer footer footer"
-    }
+    } */
+
+
+   
 
     header {
         grid-area: header;
@@ -322,23 +325,21 @@ footer {
         display: none;
     }
     
-    .section4, .section6 {
-        /* width: 50vw; */
-    }
+  
 
-    .section4 {
-        grid-area: section4;
-    }
-
-    .section 5 {
-        grid-area: section6;
+    .maincontainer {
+        display: flex;
+        justify-content: space-evenly;
+        background-image: url("../image/Dåb\ og\ navngivning-min.jpg");
+        background-size: cover;
+        background-position: center;
     }
     
 
     
 
     .section4 h2 {
-        border-bottom: 1px solid rgb(255, 255, 255);
+        border-bottom: 1px solid rgb(0, 0, 0);
         width: 60%;
         margin: auto;
         margin-top: 7vh;
@@ -356,7 +357,7 @@ footer {
     }
 
     .section6 h2 {
-        border-bottom: 1px solid rgb(255, 255, 255);
+        border-bottom: 1px solid rgb(0, 0, 0);
         width: 50%;
         margin: auto;
         margin-top: 7vh;
@@ -373,24 +374,24 @@ footer {
     .sectioncontainer {
         position: relative;
         height: 1000px;
-        width: 40vw;
+        width: 35vw;
         margin: auto;
         outline-offset: 10px;
         padding-bottom:20px;
-        margin-top: 40px;
-        background-color: #96192cda;
+        margin-top: 10vh;
+        background-color: #ffffff;
     }
 
 
     .sectioncontainer2 {
         position: relative;
         height: 1000px;
-        width: 40vw;
+        width: 35vw;
         margin: auto;
         outline-offset: 10px;
         padding-bottom:20px;
-        margin-top: 40px;
-        background-color: #96192cda;
+        margin-top: 10vh;
+        background-color: #ffffff;
     }
 
     article p {
