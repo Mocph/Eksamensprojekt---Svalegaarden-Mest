@@ -333,6 +333,10 @@ footer {
         background-image: url("../image/Dåb\ og\ navngivning-min.jpg");
         background-size: cover;
         background-position: center;
+        margin-top: 100px; 
+        margin-left: 20px; 
+        margin-right: 20px; 
+        padding-bottom: 60px; 
     }
     
 
@@ -342,7 +346,7 @@ footer {
         border-bottom: 1px solid rgb(0, 0, 0);
         width: 60%;
         margin: auto;
-        margin-top: 7vh;
+        margin-top: 10px;
     }
 
     
@@ -351,7 +355,9 @@ footer {
         text-align: center;
         margin: auto;
         padding-top: 5vh;
-        line-height: 2;
+        line-height: 25px;
+        margin: 30px;
+        font-size: 18px;
        
         
     }
@@ -360,14 +366,18 @@ footer {
         border-bottom: 1px solid rgb(0, 0, 0);
         width: 50%;
         margin: auto;
-        margin-top: 7vh;
+        margin-top: 10px;
     }
 
     .section6 article {
         text-align: center;
         margin: auto;
         padding-top: 5vh;
-        line-height: 2;
+        line-height: 25px;
+        margin: 30px; 
+        font-size: 18px; 
+        
+        
         
     }
 
@@ -379,7 +389,9 @@ footer {
         outline-offset: 10px;
         padding-bottom:20px;
         margin-top: 10vh;
-        background-color: #ffffff;
+        background-color:#ffffffa4 ;
+        border: 5px dotted white; 
+        
     }
 
 
@@ -391,11 +403,15 @@ footer {
         outline-offset: 10px;
         padding-bottom:20px;
         margin-top: 10vh;
-        background-color: #ffffff;
+        background-color: #ffffffa4;
+        border: 5px dotted white; 
+        
+        
     }
 
     article p {
         padding: 20px;
+        
     }
 
     .btn {
@@ -434,10 +450,13 @@ footer {
     
     .venstrefooter {
         margin-left: 8vw;
+        
     }
     
     .højrefooter {
         margin-left: 5vw;
+        padding-right: 100px; 
+        border-right: 0.5px solid rgb(66, 65, 65);
     }
     
     .telefon {
@@ -445,9 +464,10 @@ footer {
     }
     
     .social {
-        margin-top: 13vh;
+        margin-top: 10vh;
         position: absolute;
         right: 15vw;
+        font-size: 18px;
         
     }
 
@@ -459,7 +479,7 @@ footer {
         width: 20vw;
         position: absolute;
         right: 0;
-        top: 16vh;
+        top: 10vh;
 
     
     
