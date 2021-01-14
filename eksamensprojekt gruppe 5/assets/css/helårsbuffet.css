@@ -432,6 +432,10 @@ footer {
     
     .højrefooter {
         margin-left: 5vw;
+        padding-right: 100px; 
+        border-right: 0.5px solid rgb(66, 65, 65);
+        
+       
     }
     
     .telefon {

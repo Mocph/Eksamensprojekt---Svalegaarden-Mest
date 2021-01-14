@@ -353,6 +353,7 @@ footer {
         width: 60%;
         margin: auto;
         margin-top: 7vh;
+       
     }
 
     
@@ -361,7 +362,7 @@ footer {
         text-align: center;
         margin: auto;
         padding-top: 5vh;
-        line-height: 2;
+        line-height: 25px;
        
         
     }
@@ -377,7 +378,8 @@ footer {
         text-align: center;
         margin: auto;
         padding-top: 5vh;
-        line-height: 2;
+        line-height: 25px;
+        font-size: 18px; 
         
     }
 
@@ -389,7 +391,8 @@ footer {
         outline-offset: 10px;
         padding-bottom:20px;
         margin-top: 40px;
-        background-color: #96192cda;
+        background-color: #ffffffa4;
+        border: 5px dotted white; 
     }
 
 
@@ -401,7 +404,8 @@ footer {
         outline-offset: 10px;
         padding-bottom:20px;
         margin-top: 40px;
-        background-color: #96192cda;
+        background-color: #ffffffa4;
+        border: 5px dotted white; 
     }
 
     article p {
@@ -448,6 +452,9 @@ footer {
     
     .højrefooter {
         margin-left: 5vw;
+        border-right: 0.5px solid rgb(66, 65, 65); 
+        padding-right: 100px; 
+
     }
     
     .telefon {
