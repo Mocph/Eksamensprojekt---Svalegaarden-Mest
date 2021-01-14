@@ -68,7 +68,7 @@ footer {
 
 /*alt style til desktop skrives nedenunder nedenstående mediaqueries*/
 
-@media screen and (max-width: 400px) {
+/*@media screen and (max-width: 400px) {*/
 
     header {position: relative;
         background-image: url("../image/Forside\ billede-min.jpg");
@@ -237,7 +237,6 @@ footer {
     margin-top: 13vh;
 }
 
-}
 
 
 
