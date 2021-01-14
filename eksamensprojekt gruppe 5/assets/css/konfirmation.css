@@ -140,7 +140,9 @@ footer {
         
     }
 
- 
+    .btn {
+        display: none;
+    }
 
 
     .articleimage {
@@ -305,7 +307,8 @@ footer {
     .section4 {
         grid-area: section4;
         color: white;
-        padding-bottom: 5vh;
+        padding-top: 5vh;
+        padding-bottom: 20vh;
         background-image: url("../image/gardie-design-social-media-marketing-Nuau0vx6vk8-unsplash-min.jpg");
         background-position: center;
         background-size: cover;
@@ -330,16 +333,38 @@ footer {
         
     }
     
-    h1 {text-align: center;
-    padding-bottom: 5vh;}
+    h1 {
+        text-align: center;
+        padding-bottom: 5vh;
+    }
 
-    
+
+    .mobiltekst {
+        display: none;
+    }
+
+    .btn {
+        position: absolute;
+        width: 12vw;
+        margin: auto;
+        margin-top: 10vh;
+        display: block;
+        padding: 10px;
+        background-color: rgb(71, 201, 71);
+        border: none;
+        border-radius: 0px;
+        color: #1B2557;
+        color: white;
+        right: 2vw;
+        bottom: -2vh
+}
 
     .sectioncontainer {
+        position: relative;
         width: 60vw;
         margin: auto;
         outline-offset: 10px;
-        padding-bottom:20px;
+        padding-bottom:15vh;
         margin-top: 40px;
         background-color: #1b2557d7;
     }
