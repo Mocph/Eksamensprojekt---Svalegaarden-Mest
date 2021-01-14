@@ -78,26 +78,47 @@ footer {
         background-size: cover;
         
     }
-
+/*
     .tilbage {
         position: absolute;
         padding: 10px;
     }
-
+*/
     .logo {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
-
+/*
     .burgermenu {
         position: absolute;
         top: 0;
         right: 0;
         padding: 13px;
     }
+*/
 
+.mobile-nav {
+    padding: 10px; 
+}
+
+#bars{
+    background-color: black; 
+    border-radius: 50%; 
+    border: 1px solid black;
+    padding: 8px; 
+    float: right;
+    
+}
+
+#arrow {
+    background-color: black;
+    border-radius: 50%; 
+    border: 1px solid black; 
+    padding: 8px; 
+    color: white; 
+}
     .section1 article {
         text-align: center;
         font-size: 10px;
@@ -240,7 +261,7 @@ footer {
 }
 
 .social {
-    margin-top: 13vh;
+    margin-top: 10vh;
     position: absolute;
     right: 13vw;
     
@@ -278,6 +299,10 @@ footer {
         left: 50%;
         transform: translate(-50%, -50%);
     } 
+
+    .mobile-nav {
+    display: none; 
+    }
 
     .web-nav {
         grid-area: web-nav;
@@ -443,7 +468,7 @@ footer {
     }
     
     .social {
-        margin-top: 13vh;
+        margin-top: 50px;
         position: absolute;
         right: 15vw;
         
@@ -457,13 +482,15 @@ footer {
         width: 20vw;
         position: absolute;
         right: 0;
-        top: 16vh;
+        top: 8vh;
 
     
     
     }
     
-    
+    #facebookicon, #instagramicon {
+        font-size: 50px;
+    }
 
 }
 

@@ -284,7 +284,9 @@ footer {
         left: 50%;
         transform: translate(-50%, -50%);
     } 
-
+    .mobile-nav {
+        display: none; 
+    }
     .web-nav {
         grid-area: web-nav;
         display: inline-flex;
@@ -424,7 +426,7 @@ footer {
     }
     
     .social {
-        margin-top: 13vh;
+        margin-top: 50px;
         position: absolute;
         right: 15vw;
         
@@ -438,12 +440,15 @@ footer {
         width: 20vw;
         position: absolute;
         right: 0;
-        top: 16vh;
+        top: 8vh;
 
     
     
     }
-
+    
+    #facebookicon, #instagramicon {
+        font-size: 50px;
+    }
 }
 
 
