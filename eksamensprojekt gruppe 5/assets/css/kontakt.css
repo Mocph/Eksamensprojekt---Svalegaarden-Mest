@@ -392,6 +392,7 @@ footer {
         border-radius: 5px;
         color: #1B2557;
         color: rgb(0, 0, 0);
+        outline: none; 
        
 }
 
@@ -424,6 +425,8 @@ footer {
     
     .højrefooter {
         margin-left: 5vw;
+        padding-right: 100px; 
+        border-right: 0.5px solid rgb(66, 65, 65);
     }
     
     .telefon {

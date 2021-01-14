@@ -3,3 +3,6 @@
 [0114/144554.298:ERROR:directory_reader_win.cc(43)] FindFirstFile: Den angivne sti blev ikke fundet. (0x3)
 [0114/151157.901:ERROR:directory_reader_win.cc(43)] FindFirstFile: Den angivne sti blev ikke fundet. (0x3)
 [0114/153823.217:ERROR:directory_reader_win.cc(43)] FindFirstFile: Den angivne sti blev ikke fundet. (0x3)
+[0114/155526.345:ERROR:process_info.cc(375)] NtQuerySystemInformation SystemExtendedHandleInformation: Længden af den angivne informationspost passer ikke med den krævede længde for denne klasse af information. (0xc0000004)
+[0114/155526.386:ERROR:filesystem_win.cc(129)] GetFileAttributes c:\Users\Annel\AppData\Roaming\Code\User\workspaceStorage\7496f3324f7850ae825323ea6d388b3b\ms-vscode.js-debug\.profile\Crashpad\attachments\0bd41923-8741-4f78-829f-b5570ecb5981: Den angivne sti blev ikke fundet. (0x3)
+[0114/161639.473:ERROR:directory_reader_win.cc(43)] FindFirstFile: Den angivne sti blev ikke fundet. (0x3)
