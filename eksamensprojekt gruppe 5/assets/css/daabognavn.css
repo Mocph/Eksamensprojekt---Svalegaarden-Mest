@@ -337,6 +337,7 @@ footer {
         margin-left: 20px; 
         margin-right: 20px; 
         padding-bottom: 60px; 
+        
     }
     
 
@@ -429,11 +430,11 @@ footer {
 
 
     footer {
-        grid-area: footer;
         position: relative;
         padding-top: 5vh;
         background-color: #EBEBEB;
-        margin-top: 10vh;
+        margin-top: 100px; 
+        
         
     }
     
