@@ -333,6 +333,7 @@ footer {
         background-image: url("../image/Dåb\ og\ navngivning-min.jpg");
         background-size: cover;
         background-position: center;
+        padding-bottom: 15vh;
     }
     
 
@@ -413,11 +414,10 @@ footer {
 
 
     footer {
-        grid-area: footer;
         position: relative;
         padding-top: 5vh;
         background-color: #EBEBEB;
-        margin-top: 10vh;
+        
         
     }
     
