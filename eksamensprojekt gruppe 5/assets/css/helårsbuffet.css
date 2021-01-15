@@ -179,9 +179,9 @@ footer {
         margin-top: 40px;
     }
 
- 
-
-    
+ .btncontainer {
+     display: none;
+ }
 
     .articleimage {
         position: relative;
@@ -364,7 +364,6 @@ footer {
 
     .section4 h2 {
         border-bottom: 1px solid rgb(255, 255, 255);
-        height: 5vh;
         width: 50%;
         margin: auto;
         margin-top: 7vh;
@@ -387,14 +386,36 @@ footer {
     
 
     .sectioncontainer {
+        position: relative;
         width: 60vw;
         margin: auto;
         outline-offset: 10px;
-        padding-bottom:20px;
+        padding-bottom:15vh;
         margin-top: 40px;
         background-color: #96192cda;
     }
+
+    .btncontainer {
+        position: absolute;
+        bottom: -3vh;
+        right: 2vw;
+    }
     
+    .btn {
+        padding: 10px;
+        background-color: rgb(73, 204, 73);
+        border: none;
+        border-radius: 8px;
+        color: #ffffff;
+}
+
+    .btn2 {
+        padding: 10px;
+        background-color: rgb(73, 204, 73);
+        border: none;
+        border-radius: 8px;
+        color: #ffffff;
+    }
     
 
     /* .btn {
