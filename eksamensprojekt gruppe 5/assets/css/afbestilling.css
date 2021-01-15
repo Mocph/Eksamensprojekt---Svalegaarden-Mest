@@ -71,11 +71,24 @@ footer {
 @media screen and (max-width: 400px) {
 
     header {position: relative;
-        background-image: url("../image/Konfirmation-min.jpg");
+        background-image: url("../image/Forside\ billede-min.jpg");
         height: 30vh;
         width: 100%;
         background-position: center;
         background-size: cover;
+        
+    }
+
+    .headline-nav {
+        text-align: center;
+        position: absolute; 
+        top: 58%; 
+        left: 50%; 
+        transform: translate(-50%, -58%);
+        font-weight: 400;
+        width: 200px; 
+        text-shadow: 0px -0.5px 15px rgba(0, 0, 0, 0.87);
+        color: white; 
         
     }
 
@@ -277,8 +290,21 @@ footer {
         background-size: cover;
     }
 
-    .mobile-nav {
+    #bars, #arrow {
         display: none; 
+    }
+
+    .headline-nav {
+        text-align: center;
+        position: absolute; 
+        top: 58%; 
+        left: 50%; 
+        transform: translate(-50%, -58%);
+        font-weight: 400;
+        width: 200px; 
+        text-shadow: 0px -0.5px 15px rgba(0, 0, 0, 0.87);
+        color: white; 
+        
     }
 
     .logo {   
