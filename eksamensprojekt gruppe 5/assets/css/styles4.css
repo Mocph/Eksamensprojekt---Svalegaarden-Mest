@@ -251,6 +251,10 @@ footer {
     display: none; 
 }
 
+.sr.footer-image-web {
+    display: none; 
+}
+
 
 
 
@@ -294,7 +298,7 @@ footer {
         grid-column: 1/7; 
         grid-row: 1/2; 
         position: relative; 
-        background-image: url("../image/Forside-web.jpg");
+        background-image: url("../image/header-web-ny.jpg");
         height: 40vh;
         width: 100%; 
         background-position: center; 
@@ -455,24 +459,43 @@ footer {
         }
 
         .sr-footer_adresse {
+
+            display: inline-table;
+            justify-content: space-around;
+
+            /*
             display: block; 
             margin-left: 280px; 
-            margin-top: 0px; 
+            margin-top: 0px; */
+        
          
         }
 
         .sr-footer_medier {
+            /*
             display: block;
-            float: right;
-            margin-right: 20px;  
-            font-size: 18px; 
-            
-            
+            float: right;  
+            font-size: 18px;*/
+
         }
 
         #facebookicon, #instagramicon {
-            font-size: 50px; 
+            font-size: 50px;
+            
+          
+            
         }
+
+        
+
+        #image-footer {
+            width: 40%;
+            display: block;
+            float: right;
+            margin-top: -125px;
+             
+        }
+        
 
 
    
