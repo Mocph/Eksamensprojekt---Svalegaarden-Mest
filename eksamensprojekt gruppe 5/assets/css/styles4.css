@@ -482,8 +482,8 @@ footer {
          
         }
 
-        .sr-footer_medier {
-            /*
+        /*.sr-footer_medier {
+            
             display: block;
             float: right;  
             font-size: 18px;*/
@@ -514,5 +514,5 @@ footer {
 
 
     
-}
+
 
