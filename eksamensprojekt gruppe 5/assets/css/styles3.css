@@ -72,7 +72,7 @@ footer {
 .headline-nav {
     text-align: center;
     position: absolute; 
-    top: 58%; 
+    top: 64%; 
     left: 50%; 
     transform: translate(-50%, -58%);
     font-weight: 400;

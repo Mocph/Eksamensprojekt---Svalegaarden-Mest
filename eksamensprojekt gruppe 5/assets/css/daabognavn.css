@@ -135,7 +135,7 @@ body {
     .section4 h2 {
         border-bottom: 1px solid rgb(255, 255, 255);
         height: 5vh;
-        width: 60%;
+        width: 50%;
         margin: auto;
         margin-top: 50px;
         padding-bottom: 20px;
@@ -402,7 +402,7 @@ footer {
     }
     
   h1 {
-      font-size: 30px
+      font-size: 29px
   }
 
     .maincontainer {
@@ -421,7 +421,7 @@ footer {
 
     .section4 h2 {
         border-bottom: 1px solid rgb(0, 0, 0);
-        width: 60%;
+        width: 40%;
         margin: auto;
         margin-top: 10vh;
         padding-bottom: 2vh;
@@ -433,7 +433,7 @@ footer {
         text-align: center;
         margin: auto;
         padding-top: 5vh;
-        line-height: 25px;
+        line-height: 2;
         margin: 30px;
         font-size: 18px;
      
@@ -443,7 +443,7 @@ footer {
 
     .section6 h2 {
         border-bottom: 1px solid rgb(0, 0, 0);
-        width: 50%;
+        width: 40%;
         margin: auto;
         margin-top: 10vh;
         padding-bottom: 2vh;
@@ -453,7 +453,7 @@ footer {
         text-align: center;
         margin: auto;
         padding-top: 5vh;
-        line-height: 25px;
+        line-height: 2;
         margin: 30px; 
         font-size: 18px; 
         
@@ -477,7 +477,7 @@ footer {
 
     .sectioncontainer2 {
         position: relative;
-        height: 1038px;
+        height: 1180px;
         width: 35vw;
         margin: auto;
         outline: 5px dotted white;
@@ -491,7 +491,7 @@ footer {
     }
 
     article p {
-        padding: 20px;
+        padding: 0 20px;
         
     }
 
