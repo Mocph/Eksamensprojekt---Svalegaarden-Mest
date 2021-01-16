@@ -72,7 +72,7 @@ footer {
 .headline-nav {
     text-align: center;
     position: absolute; 
-    top: 58%; 
+    top: 64%; 
     left: 50%; 
     transform: translate(-50%, -58%);
     font-weight: 400;
@@ -137,7 +137,7 @@ footer {
 }
 
 .bf-section_classicbuffet{
-    background-image: url("../image/classicmenu147.jpg");
+    background-image: url("../image/spis\ hos\ mest.jpg");
     background-size: 100% 147px;
     background-position: top;
     background-repeat: no-repeat;  
@@ -327,7 +327,7 @@ footer {
         column-gap: 5px;
         row-gap: 10px;
 
-        background-image: url("../image-selskaber/Fest\ arrangement.jpg");
+        background-image: url("../image/Mad\ baggrund-min.jpg");
         background-attachment: fixed;
         background-position: center;
         background-size: 100%;
@@ -341,7 +341,7 @@ footer {
 
     #top-logo{
         position: absolute; 
-        top: 35%; 
+        top: 50%; 
         left: 50%; 
         transform: translate(-50%, -35%);
         width: 20%;
