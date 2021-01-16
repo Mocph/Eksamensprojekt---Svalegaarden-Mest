@@ -279,6 +279,9 @@ footer {
 /*alt style til desktop skrives nedenunder nedenstående mediaqueries*/
 
 @media (min-width: 900px) {
+
+    
+    
     .container {
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas: 

@@ -59,6 +59,10 @@ footer {
      
 }
 
+.logo {
+    display: none; 
+}
+
 .logo-top {
     position: absolute; 
     top: 50%; 
@@ -335,7 +339,14 @@ footer {
         ""*/
     }
 
-    
+    .logo {  
+         
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    } 
 
     .head-top {
         grid-column: 1/7; 
@@ -514,7 +525,11 @@ footer {
          
         }
 
+<<<<<<< HEAD
         .sr-footer_medier {
+=======
+        /*.sr-footer_medier {
+>>>>>>> ae63aa4f39aceec3f4b3599d75b0c9d0f86ff07b
             
             display: block;
             float: right;  
@@ -601,7 +616,4 @@ footer {
             font-size: 50px;
         }
 
-
-    /* MO */
-}
-
+    }
