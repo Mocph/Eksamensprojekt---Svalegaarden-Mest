@@ -74,7 +74,7 @@ footer {
 .headline-nav {
     text-align: center;
     position: absolute; 
-    top: 58%; 
+    top: 64%; 
     left: 50%; 
     transform: translate(-50%, -58%);
     font-weight: 545;
@@ -339,14 +339,17 @@ footer {
         ""*/
     }
 
-    .logo {  
-         
-        position: absolute;
-        top: 50%;
-        left: 50%;
+    .logo-top {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
         transform: translate(-50%, -50%);
-        
-    } 
+        width: 40%;
+    }
+
+    .headline-nav {
+        display: none;
+    }
 
     .head-top {
         grid-column: 1/7; 
@@ -487,7 +490,7 @@ footer {
         grid-row: 8;  
         background-color: #EBEBEB; 
         height: 100%;
-
+        position: relative;
          
     }
 
@@ -525,11 +528,8 @@ footer {
          
         }
 
-<<<<<<< HEAD
         .sr-footer_medier {
-=======
         /*.sr-footer_medier {
->>>>>>> ae63aa4f39aceec3f4b3599d75b0c9d0f86ff07b
             
             display: block;
             float: right;  
@@ -559,12 +559,12 @@ footer {
 
          /* MO */
    
-        footer {
+        /* footer {
             position: relative;
             padding-top: 5vh;
             background-color: #EBEBEB;
             
-        }
+        } */
         
         .logofooter {
             width: 50vw;
@@ -607,6 +607,7 @@ footer {
             position: absolute;
             right: 0;
             top: 8vh;
+            display: block;
     
         
         
