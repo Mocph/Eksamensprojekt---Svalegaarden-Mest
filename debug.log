@@ -15,3 +15,4 @@
 [0114/172135.504:ERROR:process_info.cc(375)] NtQuerySystemInformation SystemExtendedHandleInformation: Længden af den angivne informationspost passer ikke med den krævede længde for denne klasse af information. (0xc0000004)
 [0114/174300.662:ERROR:process_info.cc(375)] NtQuerySystemInformation SystemExtendedHandleInformation: Længden af den angivne informationspost passer ikke med den krævede længde for denne klasse af information. (0xc0000004)
 [0114/174308.133:ERROR:process_info.cc(359)] UncheckedAllocate
+[0116/004223.337:ERROR:directory_reader_win.cc(43)] FindFirstFile: Den angivne sti blev ikke fundet. (0x3)
