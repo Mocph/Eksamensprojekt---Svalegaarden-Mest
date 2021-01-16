@@ -64,6 +64,7 @@ footer {
     top: 50%; 
     left: 50%; 
     transform: translate(-50%, -50%);
+    width: 85%;
 
 }
 
@@ -283,17 +284,50 @@ footer {
     
     
     .container {
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-areas: 
-        "header header header header"
-        ""
-        ""
+        grid-template-columns: 15px repeat(5, 1fr) 15px;
+        grid-auto-rows: minmax (100px, auto);
+        column-gap: 5px;
+        row-gap: 10px;
+
+        background-image: url("../image-selskaber/Fest\ arrangement.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat; 
+        
+        
+        
+
+        
     }
 
-    .header {
+    #top-logo{
         position: absolute; 
-        background-image: "#";
+        top: 35%; 
+        left: 50%; 
+        transform: translate(-50%, -35%);
+        width: 40%;
+       
     }
+
+    .headline-nav {
+        display: none;
+    }
+
+    .head-top {
+        grid-column: 1/7; 
+        grid-row: 1/2; 
+        position: relative; 
+        background-image: url("../image/header-web-ny.jpg");
+        height: 40vh;
+        width: 100%; 
+        background-position: center; 
+        background-size: cover; 
+        /*
+        position: absolute; 
+        background-image: "#";*/
+    }
+
 
     .web-nav {
         display: grid;
@@ -301,9 +335,207 @@ footer {
 
     /* ul skal være med: position: relative;*/
 
-    .mobile-nav {
+    #bars, #arrow {
         display: none; 
     }
+
+    .web-nav {
+        display: inline-flex; 
+        justify-content: space-around; 
+        border: grey 1px solid; 
+        position: absolute; 
+        bottom: 0; 
+        margin-left: -10px; 
+        
+        
+        background-color: white; 
+        width: 100%;
+
+        grid-column: 1/7; 
+        grid-row: 1/2; 
+    }
+
+    ul li {
+        display: inline; 
+        list-style: none; 
+    }
+
+    ul li a {
+        text-decoration: none; 
+        color: black; 
+        padding: 20px; 
+    }
+
+    .bf-section_udvalg {
+        display: none; 
+    }
+
+    .bf-section_lokalbuffet {
+        grid-column: 2; 
+        grid-row: 3/4; 
+       
+        
+        
+
+    }
+
+    .bf-section_helårsbuffet {
+        grid-column: 3; 
+        grid-row: 3/4; 
+        
+       
+    }
+
+    .bf-section_vinterbuffet {
+        grid-column: 4; 
+        grid-row: 3/4;
+    
+        
+        
+    }
+
+    .bf-section_sommerbuffet {
+        grid-column: 5; 
+        grid-row: 3/4; 
+        
+        
+    }
+
+    .bf-section_classicbuffet {
+        grid-column: 6; 
+        grid-row: 3/4; 
+        
+       
+        
+    }
+
+    
+    .btn-1 {
+        display: inline-block; 
+        position: relative; 
+        top: 45%; 
+        left: 50%; 
+        transform: translate(-50%, -45%); 
+        -ms-transform: translate(-50%, -45%);
+        
+
+    }
+
+    
+
+    .btn-2 {
+        display: inline-block; 
+        position: relative; 
+        top: 45%; 
+        left: 50%; 
+        transform: translate(-50%, -45%);
+        -ms-transform: translate(-50%, 45%);
+
+    }
+
+     
+    .btn-3 {
+        display: inline-block;
+        position: relative;
+        top: 45%;
+        left: 50%; 
+        transform: translate(-50%, -45%);
+        -ms-transform: translate(-50%, -45%);
+    
+    }
+    
+    .btn-4 {
+        display: inline-block;
+        position: relative;
+        top: 45%;
+        left: 50%; 
+        transform: translate(-50%, -45%);
+        -ms-transform: translate(-50%, -45%);
+    }  
+
+    .btn-5 {
+        display: inline-block;
+        position: relative;
+        top: 45%;
+        left: 50%; 
+        transform: translate(-50%, -45%);
+        -ms-transform: translate(-50%, -45%);
+    }
+
+
+    .bf-paragraph_classic, .bf-paragraph_helårs, .bf-paragraph_lokal, .bf-paragraph_sommer, .bf-paragraph_vinter {
+        height: 122px ;
+    }
+    
+
+
+    footer {
+        grid-column: 1/7; 
+        grid-row: 5/9;
+        background-color: #EBEBEB; 
+        height: 100%;
+        position: relative; 
+        margin-top: 20px; 
+        margin-right: -20px; 
+        padding-top: 10px; 
+    }
+
+    .logofooter {
+        width: 50vw;
+        margin-left: 10vw;
+        margin-top: -10px; 
+    }
+    
+    .footercon {
+        margin-top: 2vh;
+        display: flex;
+    }
+    
+    .venstrefooter {
+        margin-left: 8vw;
+    }
+    
+    .højrefooter {
+        margin-left: 5vw;
+        padding-right: 100px; 
+        border-right: 0.5px solid rgb(66, 65, 65);
+    }
+    
+    .telefon {
+        margin-top: 5vh;
+    }
+    
+    .social {
+        margin-top: 50px;
+        position: absolute;
+        right: 15vw;
+        
+    }
+
+    .footerbillede {
+        background-image: url(../image/Sort\ hvid-min.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 20vh;
+        width: 20vw;
+        position: absolute;
+        right: 0;
+        top: 8vh;
+        display: block;
+
+    
+    
+    }
+
+    
+
+    #facebookicon, #instagramicon {
+        font-size: 50px;
+    }
+
+
+
+
 
 
 }
