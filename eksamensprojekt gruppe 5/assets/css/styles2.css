@@ -13,27 +13,27 @@ header {
     grid-area: header;
 }
 
-.me-section_tekst {
+.bf-section_udvalg {
     grid-area: section-1;
 }
 
-.me-section_brunch-menu {
+.bf-section_lokalbuffet{
     grid-area: section-2;
 }
 
-.me-section_buffet-menu {
+.bf-section_helårsbuffet {
     grid-area: section-3;
 }
 
-.me-section_classic-menu {
+.bf-section_vinterbuffet {
     grid-area: section-4;
 }
 
-.me-section_årstids-menu {
+.bf-section_sommerbuffet {
     grid-area: section-5;
 }
 
-.me-section_weekend-menu {
+.bf-section_classicbuffet{
     grid-area: section-6;
 }
 
@@ -42,7 +42,7 @@ footer {
 }
 
 
-.headtop {
+.head-top {
     background-image: url("../image/Forside-mobile.jpg");
     position: relative;
     background-size: cover;  
@@ -59,11 +59,12 @@ footer {
      
 }
 
-.logotop {
+.logo-top {
     position: absolute; 
     top: 50%; 
     left: 50%; 
     transform: translate(-50%, -50%);
+    width: 85%;
 
 }
 
@@ -73,13 +74,14 @@ footer {
     top: 58%; 
     left: 50%; 
     transform: translate(-50%, -58%);
-    font-weight: 500;
-    width: 200px; 
+    font-weight: 400;
+    width: 200px;
     text-shadow: 0px -0.5px 15px rgba(0, 0, 0, 0.87);
     color: white; 
+    
 }
 
-#bars{
+#bars {
     background-color: black; 
     border-radius: 50%; 
     border: 1px solid black;
@@ -95,7 +97,7 @@ footer {
     padding: 8px; 
 }
 
-.me-article_introtekst {
+.bf-article_text {
     text-align: center;
     padding: 10px; 
     margin: 30px;
@@ -105,36 +107,36 @@ footer {
      
 }
 
-.me-section_brunch-menu {
-    background-image: url("../image/Brunch147.jpg");
+.bf-section_lokalbuffet {
+    background-image: url("../image/Brunch-min.jpg");
     background-size: 100% 147px;
     background-position: top;
     background-repeat: no-repeat;
 }
 
-.me-section_buffet-menu {
-    background-image: url("../image/gourmet-buffet147.jpg");
+.bf-section_helårsbuffet {
+    background-image: url("../image/Buffet\ 2-min.jpg");
     background-size: 100% 147px;
     background-position: top;
     background-repeat: no-repeat;
 }
 
-.me-section_classic-menu {
-    background-image: url("../image/chicken147.jpg");
+.bf-section_vinterbuffet {
+    background-image: url("../image/Classisk\ menu-min.jpg");
     background-size: 100% 147px;
     background-position: top;
     background-repeat: no-repeat;
 }
 
-.me-section_årstids-menu {
-    background-image: url("../image/årstider147.jpg");
+.bf-section_sommerbuffet{
+    background-image: url("../image/Billede1-min.jpg");
     background-size: 100% 147px;
     background-position: top;
     background-repeat: no-repeat;  
 }
 
-.me-section_weekend-menu{
-    background-image: url("../image/spis-hos-mest147.jpg");
+.bf-section_classicbuffet{
+    background-image: url("../image/classicmenu147.jpg");
     background-size: 100% 147px;
     background-position: top;
     background-repeat: no-repeat;  
@@ -149,14 +151,15 @@ footer {
     background-color: white; 
     border-radius: 5px; 
     text-align: center; 
-    color: #96192b;
+    color: #96192b;  
     box-shadow:0 1.5px #232324e1, 0 2px 6px hsla(0, 0%, 0%, 0.562);
     outline: none;   
+ 
 
 }
 
 .btn-1:hover, .btn-2:hover, .btn-3:hover, .btn-4:hover, .btn-5:hover{
-    background-color:#97989cad;
+    background-color:#96192b;
     color: white;
     border:1px solid white; 
 }
@@ -164,29 +167,29 @@ footer {
 .btn-1 {
     display: inline-block;
     position: relative;
-    top: 55%;
+    top:60%;
     left: 50%; 
-    transform: translate(-50%, -55%);
-    -ms-transform: translate(-50%, -55%);  
+    transform: translate(-50%, -60%);
+    -ms-transform: translate(-50%, -60%);  
 }
 
 .btn-2 {
     display: inline-block;
     position: relative;
-    top: 55%;
+    top: 60%;
     left: 50%; 
-    transform: translate(-50%, -55%);
-    -ms-transform: translate(-50%, -55%);
+    transform: translate(-50%, -60%);
+    -ms-transform: translate(-50%, -60%);
     
 }
 
 .btn-3 {
     display: inline-block;
     position: relative;
-    top: 55%;
+    top: 60%;
     left: 50%; 
-    transform: translate(-50%, -55%);
-    -ms-transform: translate(-50%, -55%);
+    transform: translate(-50%, -60%);
+    -ms-transform: translate(-50%, -60%);
 
 }
 
@@ -208,7 +211,7 @@ footer {
     -ms-transform: translate(-50%, -60%);
 }
 
-.me-paragraph_brunch, .me-paragraph_buffet, .me-paragraph_classic, .me-paragraph_årstid, .me-paragraph_weekend{
+.bf-paragraph_lokal, .bf-paragraph_helårs, .bf-paragraph_vinter, .bf-paragraph_sommer, .bf-paragraph_classic{
     position: relative;  
     padding: 30px;  
     margin-top: 108px;
@@ -231,31 +234,27 @@ footer {
      transform: translate(-50%, 50%);
  }
  
- .me-footer_kontaktinfo {
+ .bf-footer_kontaktinfo {
      padding: 25px; 
      display: block; 
      float: left;
  }
- 
- .me-footer_adresse{
-     padding: 25px; 
-     display: block;    
- }
- 
- .me-footer_telefontid {
+
+ .bf-footer_telefontid {
      margin-top: 35px; 
  }
+
+ .bf-footer_adresse {
+     padding: 25px;     
+ }
  
- .me-footer_medier {
+ .bf-footer_medier {
      margin-top: 100px; 
  }
-
- .me-footer_bold {
+ 
+ .bf-footer_bold {
      font-weight: bold;
  }
- 
-
-
 
 .web-nav {
     display: none; 
@@ -277,21 +276,57 @@ footer {
     "footer"
 }
 
+
 /*alt style til desktop skrives nedenunder nedenstående mediaqueries*/
 
 @media (min-width: 900px) {
 
     
-
-   /*
+    
     .container {
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-areas: 
-        "header header header header header"
-        ""
-        "footer footer footer footer footer "
+        grid-template-columns: 15px repeat(5, 1fr) 15px;
+        grid-auto-rows: minmax (100px, auto);
+        column-gap: 5px;
+        row-gap: 10px;
+
+        background-image: url("../image-selskaber/Fest\ arrangement.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat; 
+        
+        
+        
+
+        
     }
 
+    #top-logo{
+        position: absolute; 
+        top: 35%; 
+        left: 50%; 
+        transform: translate(-50%, -35%);
+        width: 40%;
+       
+    }
+
+    .headline-nav {
+        display: none;
+    }
+
+    .head-top {
+        grid-column: 1/7; 
+        grid-row: 1/2; 
+        position: relative; 
+        background-image: url("../image/header-web-ny.jpg");
+        height: 40vh;
+        width: 100%; 
+        background-position: center; 
+        background-size: cover; 
+        /*
+        position: absolute; 
+        background-image: "#";*/
+    }
 
 
     .web-nav {
@@ -300,8 +335,223 @@ footer {
 
     /* ul skal være med: position: relative;*/
 
-    .mobile-nav {
+    #bars, #arrow {
         display: none; 
     }
 
+    .web-nav {
+        display: inline-flex; 
+        justify-content: space-around; 
+        border: grey 1px solid; 
+        position: absolute; 
+        bottom: 0; 
+        margin-left: -10px; 
+        
+        
+        background-color: white; 
+        width: 100%;
+
+        grid-column: 1/7; 
+        grid-row: 1/2; 
+    }
+
+    
+
+    ul li {
+        display: inline;
+        list-style: none;
+        
+    }
+    
+    
+
+    ul li a {
+        text-decoration: none;
+        color: black;
+        padding: 20px;
+        
+    }
+
+    
+    
+
+    .tilbage, .burgermenu {
+        display: none; 
+        
+    }
+
+    .bf-section_udvalg {
+        display: none; 
+    }
+
+    .bf-section_lokalbuffet {
+        grid-column: 2; 
+        grid-row: 3/4; 
+       
+        
+        
+
+    }
+
+    .bf-section_helårsbuffet {
+        grid-column: 3; 
+        grid-row: 3/4; 
+        
+       
+    }
+
+    .bf-section_vinterbuffet {
+        grid-column: 4; 
+        grid-row: 3/4;
+    
+        
+        
+    }
+
+    .bf-section_sommerbuffet {
+        grid-column: 5; 
+        grid-row: 3/4; 
+        
+        
+    }
+
+    .bf-section_classicbuffet {
+        grid-column: 6; 
+        grid-row: 3/4; 
+        
+       
+        
+    }
+
+    
+    .btn-1 {
+        display: inline-block; 
+        position: relative; 
+        top: 45%; 
+        left: 50%; 
+        transform: translate(-50%, -45%); 
+        -ms-transform: translate(-50%, -45%);
+        
+
+    }
+
+    
+
+    .btn-2 {
+        display: inline-block; 
+        position: relative; 
+        top: 45%; 
+        left: 50%; 
+        transform: translate(-50%, -45%);
+        -ms-transform: translate(-50%, 45%);
+
+    }
+
+     
+    .btn-3 {
+        display: inline-block;
+        position: relative;
+        top: 45%;
+        left: 50%; 
+        transform: translate(-50%, -45%);
+        -ms-transform: translate(-50%, -45%);
+    
+    }
+    
+    .btn-4 {
+        display: inline-block;
+        position: relative;
+        top: 45%;
+        left: 50%; 
+        transform: translate(-50%, -45%);
+        -ms-transform: translate(-50%, -45%);
+    }  
+
+    .btn-5 {
+        display: inline-block;
+        position: relative;
+        top: 45%;
+        left: 50%; 
+        transform: translate(-50%, -45%);
+        -ms-transform: translate(-50%, -45%);
+    }
+
+
+    .bf-paragraph_classic, .bf-paragraph_helårs, .bf-paragraph_lokal, .bf-paragraph_sommer, .bf-paragraph_vinter {
+        height: 122px ;
+    }
+    
+
+
+    footer {
+        grid-column: 1/7; 
+        grid-row: 5/9;
+        background-color: #EBEBEB; 
+        height: 100%;
+        position: relative; 
+        margin-top: 20px; 
+        margin-right: -20px; 
+        padding-top: 10px; 
+    }
+
+    .logofooter {
+        width: 50vw;
+        margin-left: 10vw;
+        margin-top: -10px; 
+    }
+    
+    .footercon {
+        margin-top: 2vh;
+        display: flex;
+    }
+    
+    .venstrefooter {
+        margin-left: 8vw;
+    }
+    
+    .højrefooter {
+        margin-left: 5vw;
+        padding-right: 100px; 
+        border-right: 0.5px solid rgb(66, 65, 65);
+    }
+    
+    .telefon {
+        margin-top: 5vh;
+    }
+    
+    .social {
+        margin-top: 50px;
+        position: absolute;
+        right: 15vw;
+        
+    }
+
+    .footerbillede {
+        background-image: url(../image/Sort\ hvid-min.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 20vh;
+        width: 20vw;
+        position: absolute;
+        right: 0;
+        top: 8vh;
+        display: block;
+
+    
+    
+    }
+
+    
+
+    #facebookicon, #instagramicon {
+        font-size: 50px;
+    }
+
+
+
+
+
+
 }
+
+
