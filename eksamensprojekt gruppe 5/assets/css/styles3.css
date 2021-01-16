@@ -4,9 +4,10 @@ html {
 }
 
 body {
-    font-family: '#';
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0; 
+    font-weight: 600;
 }
 
 header {
@@ -64,7 +65,7 @@ footer {
     top: 50%; 
     left: 50%; 
     transform: translate(-50%, -50%);
-    width: 85%;
+    width: 70%;
 
 }
 
@@ -159,7 +160,7 @@ footer {
 }
 
 .btn-1:hover, .btn-2:hover, .btn-3:hover, .btn-4:hover, .btn-5:hover{
-    background-color:#97989cad;
+    background-color:#96192b;
     color: white;
     border:1px solid white; 
 }
@@ -221,7 +222,7 @@ footer {
     line-height: 22px;
 }
 
-footer {
+/* footer {
     background-color: #EBEBEB;  
     
  }
@@ -254,10 +255,49 @@ footer {
  
  .bf-footer_bold {
      font-weight: bold;
- }
+ } */
 
 .web-nav {
     display: none; 
+}
+
+footer {
+    padding-top: 5vh;
+    background-color: #EBEBEB;
+    
+}
+
+.logofooter {
+    width: 50vw;
+    margin-left: 10vw;
+}
+
+.footercon {
+    margin-top: 2vh;
+    display: flex;
+}
+
+.venstrefooter {
+    margin-left: 8vw;
+}
+
+.højrefooter {
+    margin-left: 5vw;
+}
+
+.telefon {
+    margin-top: 5vh;
+}
+
+.social {
+    margin-top: 10vh;
+    position: absolute;
+    right: 13vw;
+    
+}
+
+#facebookicon, #instagramicon {
+    font-size: 50px;
 }
 
 .container {
@@ -289,9 +329,9 @@ footer {
         column-gap: 5px;
         row-gap: 10px;
 
-        background-image: url("../image-selskaber/Fest\ arrangement.jpg");
+        background-image: url("../image/Mad\ baggrund-min.jpg");
         background-attachment: fixed;
-        background-position: center;
+        background-position: top;
         background-size: 100%;
         background-repeat: no-repeat; 
         
@@ -301,13 +341,13 @@ footer {
         
     }
 
-    #top-logo{
+    .logo-top {
         position: absolute; 
-        top: 35%; 
+        top: 50%; 
         left: 50%; 
-        transform: translate(-50%, -35%);
-        width: 40%;
-       
+        transform: translate(-50%, -50%);
+        width: 20%;
+    
     }
 
     .headline-nav {
@@ -477,7 +517,7 @@ footer {
         position: relative; 
         margin-top: 20px; 
         margin-right: -20px; 
-        padding-top: 10px; 
+         
     }
 
     .logofooter {

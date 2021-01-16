@@ -4,7 +4,6 @@ html {
 }
 
 body {
-    font-family: '';
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif; 
@@ -325,18 +324,7 @@ footer {
         
     }
 
-    /* .headline-nav {
-        text-align: center;
-        position: absolute; 
-        top: 58%; 
-        left: 50%; 
-        transform: translate(-50%, -58%);
-        font-weight: 400;
-        width: 200px; 
-        text-shadow: 0px -0.5px 15px rgba(0, 0, 0, 0.87);
-        color: white; 
-        
-    } */
+   
 
     ul li {
         display: inline;
@@ -359,6 +347,7 @@ footer {
         display: none; 
         
     }
+
 
     .prisliste ul {
         padding: 0;
