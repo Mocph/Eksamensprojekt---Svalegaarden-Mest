@@ -228,7 +228,7 @@ footer {
     .container {
         column-gap: 20px;
         grid-template-columns: repeat(14, 1fr);
-        grid-template-areas: ""
+        
 
     }
 
@@ -246,7 +246,7 @@ footer {
        display: grid;
        grid-column:1/15; 
        position: relative;
-       background-image: url("../image/Forside-web.jpg");
+       background-image: url("../image/header-web-ny.jpg");
        height: 40vh;
        width: 100%;
        background-position: center;

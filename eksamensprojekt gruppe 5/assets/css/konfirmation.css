@@ -272,13 +272,15 @@ footer {
 
     header {
         position: relative;
-        background-image: url("../image/Classisk\ menu-min.jpg");
+        background-image: url("../image/header-web-ny.jpg");
         height: 40vh;
         width: 100%;
         background-position: center;
         background-size: cover;
     }
-
+.headline-nav {
+    display: none; 
+}
     .logo {   
         position: absolute;
         top: 50%;
