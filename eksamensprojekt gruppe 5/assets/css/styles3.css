@@ -43,7 +43,7 @@ footer {
 
 
 .head-top {
-    background-image: url("../image/Svalegaarden-mest-forår-mobile.jpg");
+    background-image: url("../image/Forside-mobile.jpg");
     position: relative;
     background-size: cover;  
     background-position: center;
@@ -279,6 +279,9 @@ footer {
 /*alt style til desktop skrives nedenunder nedenstående mediaqueries*/
 
 @media (min-width: 900px) {
+
+    
+    
     .container {
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas: 
