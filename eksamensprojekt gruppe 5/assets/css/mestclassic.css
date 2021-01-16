@@ -71,7 +71,7 @@ footer {
 @media screen and (max-width: 400px) {
 
     header {position: relative;
-        background-image: url("../image/Classisk\ menu-min.jpg");
+        background-image: url("../image/Forside\ billede-min.jpg");
         height: 30vh;
         width: 100%;
         background-position: bottom;
@@ -90,7 +90,8 @@ footer {
         left: 50%;
         transform: translate(-50%, -50%);
     }
-/*
+
+    /*
     .burgermenu {
         position: absolute;
         top: 0;
@@ -98,7 +99,6 @@ footer {
         padding: 13px;
     }
 */
-
 .mobile-nav {
     padding: 10px; 
 }
@@ -117,6 +117,20 @@ footer {
     border-radius: 50%; 
     border: 1px solid black; 
     padding: 8px; 
+    color: white; 
+}
+
+.headline-nav {
+    text-align: center;
+    position: absolute; 
+    top: 58%; 
+    left: 50%; 
+    transform: translate(-50%, -58%);
+    font-weight: 400;
+    width: 200px; 
+    text-shadow: 0px -0.5px 15px rgba(0, 0, 0, 0.87);
+    color: white; 
+    
 }
 
     .section1 article {
@@ -158,7 +172,7 @@ footer {
 
     .section4 h2 {
         border-bottom: 1px solid rgb(255, 255, 255);
-        width: 80%;
+        width: 90%;
         margin: auto;
         margin-top: 7vh;
         padding-bottom: 2vh;
@@ -178,9 +192,9 @@ footer {
         margin-top: 40px;
     }
 
- 
-
-    
+ .btncontainer {
+     display: none;
+ }
 
     .articleimage {
         position: relative;
@@ -191,7 +205,7 @@ footer {
         width: 100%;
     }
 
-    .btn {
+    /* .btn {
         width: 40vw;
         margin: auto;
         margin-top:3vh;
@@ -221,7 +235,7 @@ footer {
 
     .tekstcon p {
         padding: 30px;
-    }
+    } */
 
     .minpersoner {
         display: none;   
@@ -230,6 +244,7 @@ footer {
 /* Footer herunder: */
 
 footer {
+    position: relative;
     padding-top: 5vh;
     background-color: #EBEBEB;
     
@@ -259,11 +274,12 @@ footer {
 
 .social {
     margin-top: 13vh;
+    position: absolute;
+    right: 13vw;
+    
 }
 
-.footerbillede {
-    display: none;
-}
+
 
 }
 
@@ -289,16 +305,28 @@ footer {
         background-size: cover;
     }
 
-    .mobile-nav {
-        display: none; 
-    }
     .logo {   
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
     } 
+    #bars, #arrow {
+        display: none; 
+    }
 
+    .headline-nav {
+        text-align: center;
+        position: absolute; 
+        top: 58%; 
+        left: 50%; 
+        transform: translate(-50%, -58%);
+        font-weight: 400;
+        width: 200px; 
+        text-shadow: 0px -0.5px 15px rgba(0, 0, 0, 0.87);
+        color: white; 
+        
+    }
     .web-nav {
         grid-area: web-nav;
         display: inline-flex;
@@ -306,7 +334,6 @@ footer {
         border: grey 1px solid;
         position: absolute;
         bottom: 0;
-        
         background-color: white;
         width: 100%;
         
@@ -352,7 +379,7 @@ footer {
     .section4 {
         grid-area: section4;
         color: white;
-        padding-bottom: 5vh;
+        padding-bottom: 15vh;
         background-image: url("../image/Buffet\ 2-min.jpg");
         background-position: center;
         background-size: cover;
@@ -362,11 +389,9 @@ footer {
 
     .section4 h2 {
         border-bottom: 1px solid rgb(255, 255, 255);
-        height: 5vh;
         width: 50%;
         margin: auto;
         margin-top: 7vh;
-        padding-bottom: 2vh;
     }
     
     .section4 article {
@@ -378,20 +403,43 @@ footer {
         
     }
     
-    h1 {text-align: center;
-    padding-bottom: 5vh;}
+    h1 {
+        text-align: center;
+        padding-bottom: 5vh;
+    }
 
     
 
     .sectioncontainer {
+        position: relative;
         width: 60vw;
         margin: auto;
         outline-offset: 10px;
-        padding-bottom:20px;
+        padding-bottom:15vh;
         margin-top: 40px;
         background-color: #96192cda;
     }
+
+    .btncontainer {
+        position: absolute;
+        bottom: -3vh;
+        right: 2vw;
+    }
     
+    .btn {
+        margin-right: 1vw;
+        padding: 10px;
+        background-color: rgb(223, 226, 33);
+        border: none;
+        color: #ffffff;
+}
+
+    .btn2 {
+        padding: 10px;
+        background-color: rgb(73, 204, 73);
+        border: none;
+        color: #ffffff;
+    }
     
 
     /* .btn {
@@ -455,6 +503,8 @@ footer {
         margin-left: 5vw;
         padding-right: 100px; 
         border-right: 0.5px solid rgb(66, 65, 65);
+        
+       
     }
     
     .telefon {
@@ -462,7 +512,7 @@ footer {
     }
     
     .social {
-        margin-top: 13vh;
+        margin-top: 50px;
         position: absolute;
         right: 15vw;
         
@@ -476,10 +526,14 @@ footer {
         width: 20vw;
         position: absolute;
         right: 0;
-        top: 10vh;
+        top: 8vh;
 
     
     
+    }
+    
+    #facebookicon, #instagramicon {
+        font-size: 50px;
     }
 
 }
