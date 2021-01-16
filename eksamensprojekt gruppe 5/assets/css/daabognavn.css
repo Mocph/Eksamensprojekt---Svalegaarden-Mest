@@ -298,9 +298,14 @@ footer {
 }
 
 .social {
-    margin-top: 13vh;
+    margin-top: 9vh;
+    position: absolute;
+    right: 13vw;
 }
 
+#facebookicon, #instagramicon {
+    font-size: 50px;
+}
 
 }
 

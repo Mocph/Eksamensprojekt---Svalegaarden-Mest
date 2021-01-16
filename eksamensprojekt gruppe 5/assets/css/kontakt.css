@@ -267,7 +267,13 @@ footer {
 }
 
 .social {
-    margin-top: 13vh;
+    margin-top: 9vh;
+    position: absolute;
+    right: 13vw;
+}
+
+#facebookicon, #instagramicon {
+    font-size: 50px;
 }
 
 }
@@ -451,7 +457,7 @@ footer {
     
     .logofooter {
         width: 50vw;
-        margin-left: 10vh;
+        margin-left: 20vh;
     }
     
     .footercon {
