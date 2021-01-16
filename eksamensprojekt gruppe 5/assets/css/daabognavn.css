@@ -316,7 +316,7 @@ footer {
     header {
         grid-area: header;
         position: relative;
-        background-image: url("../image/Classisk\ menu-min.jpg");
+        background-image: url("../image/header-web-ny.jpg");
         height: 40vh;
         width: 100%;
         background-position: center;
@@ -544,6 +544,10 @@ footer {
 
     #facebookicon, #instagramicon {
         font-size: 50px;
+    }
+
+    .headline-nav {
+        display: none; 
     }
 
 }
