@@ -421,7 +421,10 @@ footer {
     
     }
     
-    
+    .logofooter {
+        width: 50vw;
+    margin-left: 10vw;
+    }
 
     /* ul skal være med: position: relative;*/
 
