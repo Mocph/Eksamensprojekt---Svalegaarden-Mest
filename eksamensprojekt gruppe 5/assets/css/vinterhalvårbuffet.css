@@ -71,7 +71,7 @@ footer {
 @media screen and (max-width: 400px) {
 
     header {position: relative;
-        background-image: url("../image/Forside\ billede-min.jpg");
+        background-image: url("../image/Forside-mobile.jpg");
         height: 30vh;
         width: 100%;
         background-position: bottom;
