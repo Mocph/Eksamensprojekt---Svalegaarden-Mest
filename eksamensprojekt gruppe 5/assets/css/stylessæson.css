@@ -287,6 +287,8 @@ h2{
     display: none; 
 } 
 
+
+
 .head-top {
     background-image: url("../image/Forside-mobile.jpg");
     position: relative;
@@ -645,6 +647,12 @@ ul li a {
         color: #FFFFFF; 
         box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5); 
     } 
+
+    .buttonstyle {
+        color: whitesmoke; 
+        list-style: none;
+        text-decoration: none;
+    }
 
     #kontaktButton{ 
         font-weight: bold; 

@@ -347,7 +347,7 @@ footer {
     .container {
         grid-template-columns: 15px repeat(4, 1fr) 15px;
         grid-auto-rows: minmax (100px, auto);
-        column-gap: 2px;
+        column-gap: 10px;
         row-gap: 10px;
         
         /*

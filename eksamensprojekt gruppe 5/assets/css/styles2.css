@@ -185,7 +185,8 @@ footer {
     top:60%;
     left: 50%; 
     transform: translate(-50%, -60%);
-    -ms-transform: translate(-50%, -60%);  
+    -ms-transform: translate(-50%, -60%); 
+    padding: 10px 68px; 
 }
 
 .btn-2 {
@@ -195,6 +196,7 @@ footer {
     left: 50%; 
     transform: translate(-50%, -60%);
     -ms-transform: translate(-50%, -60%);
+    padding: 10px 70px;
     
 }
 
@@ -224,6 +226,7 @@ footer {
     left: 50%; 
     transform: translate(-50%, -60%);
     -ms-transform: translate(-50%, -60%);
+    padding: 10px 40px;
 }
 
 .bf-paragraph_lokal, .bf-paragraph_helårs, .bf-paragraph_vinter, .bf-paragraph_sommer, .bf-paragraph_classic{
