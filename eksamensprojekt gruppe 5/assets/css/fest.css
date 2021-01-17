@@ -114,7 +114,7 @@ footer {
         line-height: 1.8;
     }
 
-.section6, .minpersoner {
+.section6, .minpersoner, .h1desktop, .introtekst {
     display: none;
 }
 
@@ -147,7 +147,7 @@ footer {
         outline: 1px dashed white;
         outline-offset: 10px;
         padding-bottom:20px;
-        margin-top: 0px;
+        margin-top: 30px;
     }
 
     article p {
