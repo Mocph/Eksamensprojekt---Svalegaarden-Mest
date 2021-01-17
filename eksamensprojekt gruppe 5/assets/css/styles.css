@@ -370,6 +370,7 @@ header {position: relative;
 
     .sp-paragraph_menuer, .sp-paragraph_møder-konferencer, .sp-paragraph_selskab {
         height: 100px;
+        padding-top: 40px; 
     }
 
     .headline-nav {
