@@ -47,7 +47,9 @@ footer {
     display: none; 
 }
 
-
+ul li a:hover {
+    text-decoration: underline 2px solid black;
+}
 
 .container {
     display: grid;

@@ -64,6 +64,10 @@ footer {
     "footer"
 }
 
+ul li a:hover {
+    text-decoration: underline 2px solid black;
+}
+
 /*alt style til desktop skrives nedenunder nedenstående mediaqueries*/
 
 @media screen and (max-width: 400px) {

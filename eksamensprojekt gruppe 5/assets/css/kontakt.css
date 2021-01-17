@@ -47,7 +47,9 @@ footer {
     display: none; 
 }
 
-
+ul li a:hover {
+    text-decoration: underline 2px solid black;
+}
 
 .container {
     display: grid;
@@ -159,9 +161,6 @@ footer {
 
     .articleimage {
         position: relative;
-        background-image: url("../image/daniel-tseng-QCjC1KpA4nA-unsplash.jpg");
-        background-size: cover;
-        background-position: top;
         height: 25vh;
         width: 100%;
     }

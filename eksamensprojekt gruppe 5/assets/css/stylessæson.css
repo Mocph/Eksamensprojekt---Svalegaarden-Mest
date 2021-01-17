@@ -41,6 +41,10 @@ footer {
     grid-area: footer; 
 }
 
+ul li a:hover {
+    text-decoration: underline 2px solid black;
+}
+
 .logo {   
     position: absolute;
     top: 50%;

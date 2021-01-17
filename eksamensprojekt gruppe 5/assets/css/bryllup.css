@@ -9,7 +9,9 @@ body {
     font-family: 'Open Sans', sans-serif; 
 }
 
-
+ul li a:hover {
+    text-decoration: underline 2px solid black;
+}
 
 
 /*alt style i css skal skrives ovenover containeren ved mobilversionen*/
