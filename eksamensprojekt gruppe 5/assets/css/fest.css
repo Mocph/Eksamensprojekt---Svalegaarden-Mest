@@ -114,7 +114,11 @@ footer {
         line-height: 1.8;
     }
 
-    .section4 h2 {
+.section6, .minpersoner {
+    display: none;
+}
+
+    /* .section4 h2 {
         border-bottom: 1px solid rgb(255, 255, 255);
         height: 5vh;
         width: 60%;
@@ -134,7 +138,7 @@ footer {
 
     .section6 {
         background-color: #1B2557;
-    }
+    } */
 
     .sectioncontainer {
         width: 80vw;
@@ -267,13 +271,17 @@ footer {
 
 
 @media (min-width: 900px) {
-    /* .container {
-        grid-template-columns: repeat(4, 1fr);
+    .container {
+        background-image: url("../image/Fest\ arrangement-min.jpg");
+        background-position: center;
+        background-size: cover;
+        display: grid;
+        grid-template-columns: repeat(4, 25vw);
         grid-template-areas: 
         "header header header header"
-        ""
-        ""
-    } */
+        "section4 section4 section6 section6"
+        "footer footer footer footer"
+    }
 
 /* HEADER NEDENUNDER */
 
@@ -368,14 +376,11 @@ footer {
         display: none;
     }
 
-    .section4 {
-        grid-area: section4;
+    .section4, .section6 {
         color: white;
         padding-top: 5vh;
         padding-bottom: 20vh;
-        background-image: url("../image/Fest\ arrangement-min.jpg");
-        background-position: center;
-        background-size: cover;
+        
     
         
     }
@@ -386,14 +391,32 @@ footer {
         margin: auto;
         margin-top: 7vh;
         padding-bottom: 2vh;
+        
     }
     
     .section4 article {
         text-align: center;
-        width: 50vw;
         margin: auto;
         padding-top: 5vh;
         line-height: 2;
+        padding: 30px;
+        
+    }
+
+    .section6 h2 {
+        border-bottom: 1px solid rgb(255, 255, 255);
+        width: 70%;
+        margin: auto;
+        margin-top: 7vh;
+        padding-bottom: 2vh;
+    }
+    
+    .section6 article {
+        text-align: center;
+        margin: auto;
+        padding-top: 5vh;
+        line-height: 2;
+        padding: 40px;
         
     }
     
@@ -421,7 +444,18 @@ footer {
 
     .sectioncontainer {
         position: relative;
-        width: 60vw;
+        width: 40vw;
+        margin: auto;
+        outline-offset: 10px;
+        padding-bottom:15vh;
+        margin-top: 40px;
+        background-color: #1b2557d7;
+    }
+
+    
+    .sectioncontainer2 {
+        position: relative;
+        width: 40vw;
         margin: auto;
         outline-offset: 10px;
         padding-bottom:15vh;
