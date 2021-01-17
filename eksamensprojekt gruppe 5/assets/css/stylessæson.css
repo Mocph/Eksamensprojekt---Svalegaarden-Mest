@@ -161,6 +161,18 @@ h2{
     margin-right: auto; 
 } 
 
+.divheaderSvalegaarden{ 
+    display: block; 
+    background-color: #FFFFFF; 
+    color: #1B2557; 
+    text-align: center; 
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.5); 
+} 
+
+.SvalegaardenMestOverskrift{ 
+    color: #FFFFFF; 
+} 
+
 .divheader{ 
     display: block; 
     background-color: #FFFFFF; 
@@ -218,6 +230,20 @@ h2{
 
 #borderSommer{ 
     height: 1080px; 
+} 
+
+#borderSvalegaarden{ 
+    height: 1450px; 
+} 
+
+#backgroundSvalegaardenMest{ 
+    display: block; 
+    width: 375px; 
+    height: 1550px; 
+    margin: 0; 
+    background-color: #1B2557; 
+    justify-content: center; 
+    padding-top: 10px; 
 } 
 
 .menuborder{ 
@@ -464,6 +490,11 @@ ul li a {
         margin-bottom: 50px; 
     } 
 
+    .divheaderSvalegaarden{ 
+        display: none; 
+    } 
+
+
     .section3{ 
         background-size: cover; 
         height: auto; 
@@ -494,6 +525,11 @@ ul li a {
     #backgroundDesktopVinter{ 
         background-image: url("../image/SvalegaardenMestVinter.jpg"); 
         height: 1290px; 
+    } 
+
+    #backgroundDesktopSvalegaarden{ 
+        background-image: url("../image/Sommer1.jpg"); 
+        height: 1000px; 
     } 
 
     .web-nav {
@@ -533,6 +569,13 @@ ul li a {
 
     #backgroundForår{ 
         height: 1250px; 
+    } 
+
+    #backgroundSvalegaardenMest{ 
+        width: 670px; 
+        background-color: rgba(27, 37, 87, 0.7); 
+        margin: 0 auto; 
+        height: 900px; 
     } 
 
     .efterårMenu{ 
@@ -577,6 +620,11 @@ ul li a {
         margin-bottom: 50px; 
     } 
 
+    .SvalegaardenMestOverskrift{ 
+        display: block; 
+        color: white; 
+        font-size: 20px; 
+    } 
 
     .divButton{ 
         display: block; 
