@@ -1,0 +1,563 @@
+html {
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    font-family: 'Open sans'; 
+    margin: 0;
+    padding: 0; 
+}
+
+header {
+    grid-area: header;
+}
+
+.section1 {
+    grid-area: section1;
+}
+
+.section2 {
+    grid-area: section2;
+}
+
+.section3 {
+    grid-area: section3;
+}
+
+.section4 {
+    grid-area: section4;
+}
+
+.section5 {
+    grid-area: section5;
+}
+
+.section6 {
+    grid-area: section6;
+}
+
+footer {
+    grid-area: footer; 
+    display: block; 
+    background-color: #EBEBEB; 
+}
+
+.pmenu{ 
+    display: block; 
+    width: 100vw; 
+    height: 110px; 
+    color: #FFFFFF; 
+    background-color: #96192B; 
+} 
+
+.articleimage{ 
+    display: block; 
+    
+    background-size: 375px 140px; 
+    background-repeat: no-repeat; 
+} 
+
+#forårimage{ 
+    background-image: url("../image/SvalegaardenMestForår.jpg"); 
+    height: 140px; 
+    background-size: cover; 
+    margin-top: 30px; 
+} 
+
+#vinterimage{ 
+    background-image: url("../image/SvalegaardenMestVinter.jpg"); 
+    height: 140px; 
+    background-size: cover; 
+    margin-top: 30px; 
+} 
+
+#sommerimage{ 
+    background-image: url("../image/Sommer1.jpg"); 
+    height: 140px; 
+    background-size: cover; 
+    margin-top: 30px; 
+} 
+
+#efterårimage{ 
+    background-image: url("../image/SvalegaardenMestEfteraar.jpg"); 
+    height: 140px; 
+    background-size: cover; 
+    margin-top: 30px; 
+} 
+
+#classicimage{ 
+    background-image: url("../image/Classic\ menu.jpg"); 
+    height: 140px; 
+    background-size: cover; 
+    margin-top: 30px; 
+} 
+
+#svalegaardenEfteraar{ 
+    background-image: url("../image/SvalegaardenMestEfteraar.jpg"); 
+    width: 100vw; 
+    height: 140px; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: -30%; 
+    margin-top: 30px; 
+} 
+
+#svalegaardenVinter{ 
+    background-image: url("../image/SvalegaardenMestVinter.jpg"); 
+} 
+
+#menubrunch{ 
+    background-image: url("/assets/image/brunch.jpg"); 
+  /*   background-position: */ 
+} 
+
+#menubuffet{ 
+    background-image: url("/assets/image/Buffet\ 2.jpg"); 
+   /* background-position: */ 
+} 
+
+.priser{ 
+    display: block; 
+    width: 300px; 
+    margin: 0 auto; 
+    line-height: 1; 
+    text-align: center; 
+    border-top: 1px solid #666666; 
+    border-bottom: 1px solid #666666; 
+} 
+
+.headerPriser{ 
+    display: none; 
+} 
+
+.heroimage{ 
+  display: block; 
+  width: 100vw; 
+  height: 288px; 
+  background-image: url("/assets/image/Forside\ billede.jpg"); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  opacity: 80%; 
+} 
+
+h2{ 
+    display: block; 
+    width: 180px; 
+    font-size: 14px; 
+    color: #FFFFFF; 
+    text-align: center; 
+    margin: 0 auto; 
+} 
+
+.ulpriser{ 
+    display: block; 
+    width: 280px; 
+    border: 1px solid red; 
+    list-style: none; 
+    text-align: center; 
+    margin-left: auto; 
+    margin-right: auto; 
+} 
+
+.divheader{ 
+    display: block; 
+    background-color: #FFFFFF; 
+    color: #96192B; 
+    text-align: center; 
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.5); 
+} 
+
+.headerDesktop{ 
+    display: none; 
+} 
+
+.menubackground{ 
+    display: block; 
+    width: 375px; 
+    height: 1100px; 
+    margin: 0; 
+    background-color: #96192B; 
+    justify-content: center; 
+    padding-top: 10px; 
+} 
+
+/* Højde på baggrund */ 
+#backgroundEfterår{ 
+    height: 1100px; 
+} 
+
+#backgroundVinter{ 
+    height: 1200px; 
+} 
+
+#backgroundForår{ 
+    height: 1100px; 
+} 
+
+#backgroundSommer{ 
+    height: 1190px; 
+} 
+
+#backgroundClassicMest{ 
+    height: 1000px; 
+} 
+
+#borderEfterår{ 
+    height: 1050px; 
+} 
+
+#borderVinter{ 
+    height: 1100px; 
+} 
+
+#borderForår{ 
+    height: 1000px; 
+} 
+
+#borderSommer{ 
+    height: 1080px; 
+} 
+
+.menuborder{ 
+    display: block; 
+    margin-top: 50px; 
+    margin-left: 10vw; 
+    width: 80vw; 
+    height: 1050px; 
+    outline: 2px dashed #FFFFFF; 
+/*    border: 2px dashed #FFFFFF; */ 
+    
+    align-self: center; 
+} 
+
+.efterårMenu{ 
+    text-align: center; 
+} 
+.ret{ 
+    display: block; 
+    font-size: 20px; 
+    width: 135px; 
+    color: white; 
+    text-align: center; 
+    justify-self: center; 
+    border-bottom: 2px solid #FFFFFF; 
+    margin: 0 auto; 
+} 
+
+.retbox{ 
+    display: block; 
+    margin: 0 auto; 
+} 
+
+.rettekst{ 
+    display: block; 
+    color: white; 
+    line-height: 1.5; 
+} 
+
+.menuButton{ 
+    display: none; 
+} 
+
+/*alt style i css skal skrives ovenover containeren ved mobilversionen*/
+.web-nav {
+    display: none; 
+}
+
+.container {
+    display: grid;
+    padding: 0px; 
+    gap: 0px; 
+    grid-template-areas: 
+    "header"
+    "section1"
+    "section2"
+    "section3"
+    "section4"
+    "section5"
+    "section6"
+    "footer"
+}
+
+/*alt style til desktop skrives nedenunder nedenstående mediaqueries*/
+
+@media (min-width: 900px) {
+    .container {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: 
+        "header header header header"
+        "  section3 section3 section3 section3" 
+        " section3 section3 section3 section3" 
+        "footer footer footer footer"; 
+    }
+
+   /* Header Desktop */ 
+
+   header {
+    position: relative;
+    background-image: url("../image/Fest\ arrangement-min.jpg");
+    height: 40vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+
+.web-nav {
+    grid-area: web-nav;
+    display: inline-flex;
+    justify-content: space-around;
+    border: grey 1px solid;
+    position: absolute;
+    bottom: 0;
+    
+    background-color: white;
+    width: 100%;
+    
+}
+
+ul li {
+    display: inline;
+    list-style: none;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    
+}
+
+.tilbage, .burgermenu {
+    display: none; 
+    
+}
+
+
+    .menubackground{ 
+        margin-top: 20px; 
+    } 
+
+    .priser{ 
+        display: none; 
+    } 
+
+    .headerPriser{ 
+        display: block; 
+        width: 300px; 
+        color: #FFFFFF; 
+        margin: 0 auto; 
+        text-align: center; 
+        margin-bottom: 50px; 
+    } 
+
+    .section3{ 
+        background-size: cover; 
+        height: auto; 
+        vertical-align: middle; 
+    } 
+
+    /* Baggrundsbillede menuer desktop */ 
+    #backgroundDesktopClassic{ 
+        background-image: url("../image/Classic\ menu.jpg"); 
+        height: 1200px; 
+    } 
+
+    #backgroundDesktopEfterår{ 
+        background-image: url("../image/SvalegaardenMestEfteraar.jpg"); 
+        height: 1400px; 
+    } 
+
+    #backgroundDesktopForår{ 
+        background-image: url("../image/SvalegaardenMestForår.jpg"); 
+        height: 1350px; 
+    } 
+
+    #backgroundDesktopSommer{ 
+        background-image: url("../image/Sommer1.jpg"); 
+        height: 1350px; 
+    } 
+
+    #backgroundDesktopVinter{ 
+        background-image: url("../image/SvalegaardenMestVinter.jpg"); 
+        height: 1290px; 
+    } 
+
+    .web-nav {
+        display: grid; 
+    }
+
+    .navigation{ 
+        list-style-type: none; 
+    } 
+
+    a{ 
+        text-decoration: none; 
+        color: #000000; 
+    } 
+
+#backgroundClassicMest, #backgroundVinter, #backgroundEfterår, #backgroundForår, #backgroundSommer{ 
+    width: 670px; 
+    background-color: rgba(150,25,43,0.7); 
+    margin: 0 auto; 
+} 
+
+    #backgroundClassicMest{ 
+        height: 1112px;  
+    } 
+
+    #backgroundEfterår{ 
+        height: 1225px; 
+    } 
+    
+    #backgroundVinter{ 
+        height: 1250px; 
+    } 
+    
+    #backgroundSommer{ 
+        height: 1250px; 
+    } 
+
+    #backgroundForår{ 
+        height: 1250px; 
+    } 
+
+    .efterårMenu{ 
+        display: block; 
+        width: 250px; 
+        justify-content: left; 
+    } 
+
+    .menuborder{ 
+/*        border: none; */ 
+        outline: none; 
+        margin: 0 auto; 
+        width: 500px; 
+    }     
+    
+    .rettekst{ 
+        font-size: 14px; 
+    } 
+
+    .retbox{ 
+        width: 520px; 
+        margin-bottom: 100px; 
+    } 
+
+    .divheader{ 
+        display: none; 
+    } 
+
+    .headerDesktop, .prisOverskrift{ 
+        display: block; 
+        width: 130px; 
+        height: 30px; 
+        color: #FFFFFF; 
+        text-align: center; 
+        font-size: 20px; 
+        border-bottom: 2px solid #FFFFFF; 
+        margin: 0 auto; 
+        font-weight: bold; 
+    } 
+
+    .headerDesktop{ 
+        margin-bottom: 50px; 
+    } 
+
+
+    .divButton{ 
+        display: block; 
+        margin-top: 50px; 
+        width: 510px; 
+    } 
+    .menuButton{ 
+        display: flex; 
+        width: 140px; 
+        height: 40px; 
+        font-size: 15px; 
+        text-align: center; 
+        justify-content: center; 
+        align-items: center; 
+        margin: auto; 
+        color: #FFFFFF; 
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5); 
+    } 
+
+    #kontaktButton{ 
+        font-weight: bold; 
+        background-color: yellow; 
+    } 
+
+    #prisButton{ 
+        background-color: green; 
+        margin-top: 10px; 
+        margin-left: 400px; 
+        
+    } 
+
+    /* Footer */ 
+    footer {
+        position: relative;
+        padding-top: 5vh;
+        background-color: #EBEBEB;
+        
+    }
+    
+    .logofooter {
+        width: 50vw;
+        padding: 70px;
+        margin-left: 10vh;
+    }
+    
+    .footercon {
+        margin-top: 2vh;
+        display: flex;
+    }
+    
+    .venstrefooter {
+        margin-left: 8vw;
+    }
+    
+    .højrefooter {
+        margin-left: 5vw;
+    }
+    
+    .telefon {
+        margin-top: 5vh;
+    }
+    
+    .social {
+        margin-top: 13vh;
+        position: absolute;
+        right: 15vw;
+        
+    }
+
+    .footerbillede {
+        background-image: url(../image/Sort\ hvid-min.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 20vh;
+        width: 20vw;
+        position: absolute;
+        right: 0;
+        top: 16vh; 
+    } 
+
+    /* ul skal være med: position: relative;*/
+
+    .mobile-nav {
+        display: none; 
+    }
+
+    
+
+}
