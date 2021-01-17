@@ -104,7 +104,7 @@ footer {
     .section4 h2 {
         border-bottom: 1px solid rgb(255, 255, 255);
         height: 5vh;
-        width: 80%;
+        width: 60%;
         margin: auto;
         margin-top: 5vh;
         padding-bottom: 20px;
@@ -365,7 +365,7 @@ footer {
 
     .section4 h2 {
         border-bottom: 1px solid rgb(255, 255, 255);
-        width: 50%;
+        width: 40%;
         margin: auto;
         margin-top: 7vh;
         padding-bottom: 2vh;
@@ -393,7 +393,7 @@ footer {
     .btn {
         position: absolute;
         padding: 10px;
-        background-color: rgb(71, 201, 71);
+        background-color: #19A81E;
         border: none;
         border-radius: 0px;
         color: #1B2557;
