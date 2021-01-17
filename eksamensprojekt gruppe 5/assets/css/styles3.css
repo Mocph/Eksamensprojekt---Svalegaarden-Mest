@@ -502,6 +502,19 @@ footer {
         -ms-transform: translate(-50%, -45%);
     }
 
+    .buttonstyle {
+        text-decoration: none;
+        list-style: none;  
+    }
+    
+    #button:hover{
+        color: white;
+    }
+    
+    #button {
+        color:#96192b; 
+    }
+
 
     .bf-paragraph_classic, .bf-paragraph_helårs, .bf-paragraph_lokal, .bf-paragraph_sommer, .bf-paragraph_vinter {
         height: 122px ;

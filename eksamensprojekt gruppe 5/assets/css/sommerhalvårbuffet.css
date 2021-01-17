@@ -438,7 +438,11 @@ footer {
         color: #ffffff;
     }
     
-
+    .buttonstyle {
+        color: whitesmoke; 
+        list-style: none;
+        text-decoration: none;
+    }
     /* .btn {
         width: 20vw;
         margin: auto;
