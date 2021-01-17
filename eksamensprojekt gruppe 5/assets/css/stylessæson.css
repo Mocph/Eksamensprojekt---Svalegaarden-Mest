@@ -39,9 +39,9 @@ header {
 
 footer {
     grid-area: footer; 
-    display: block; 
-    background-color: #EBEBEB; 
 }
+
+
 
 .pmenu{ 
     display: block; 
@@ -125,6 +125,7 @@ footer {
     text-align: center; 
     border-top: 1px solid #666666; 
     border-bottom: 1px solid #666666; 
+    margin-top: 25px; 
 } 
 
 .headerPriser{ 
@@ -260,6 +261,104 @@ h2{
     display: none; 
 } 
 
+.head-top {
+    background-image: url("../image/Forside-mobile.jpg");
+    position: relative;
+    background-size: cover;  
+    background-position: center;
+    background-repeat: no-repeat; 
+    padding: 10px;
+    height: 300px; 
+    
+}
+
+.mobile-nav {
+    color: white; 
+     
+}
+
+.logo-top {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 70%;
+
+}
+
+.headline-nav {
+    text-align: center;
+    position: absolute; 
+    top: 64%; 
+    left: 50%; 
+    transform: translate(-50%, -64%);
+    font-weight: 400px;
+    width: 230px;
+    text-shadow: 0px -0.5px 15px rgba(0, 0, 0, 0.87);
+    color: white; 
+    
+}
+
+#bars {
+    background-color: black; 
+    border-radius: 50%; 
+    border: 1px solid black;
+    padding: 8px; 
+    float: right;
+    
+}
+
+#arrow {
+    background-color: black;
+    border-radius: 50%; 
+    border: 1px solid black; 
+    padding: 8px; 
+}
+
+
+footer {
+    padding-top: 5vh;
+    background-color: #EBEBEB;
+    
+}
+
+.logofooter {
+    width: 50vw;
+    margin-left: 10vw;
+}
+
+.footercon {
+    margin-top: 2vh;
+    display: flex;
+}
+
+.venstrefooter {
+    margin-left: 8vw;
+}
+
+.højrefooter {
+    margin-left: 5vw;
+}
+
+.telefon {
+    margin-top: 5vh;
+}
+
+.social {
+    margin-top: 10vh;
+    position: absolute;
+    right: 13vw;
+    
+}
+
+.footer_paragraph-bold {
+    font-weight: bold;
+}
+
+#facebookicon, #instagramicon {
+    font-size: 50px;
+}
+
 /*alt style i css skal skrives ovenover containeren ved mobilversionen*/
 .web-nav {
     display: none; 
@@ -287,18 +386,17 @@ h2{
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas: 
         "header header header header"
-        "  section3 section3 section3 section3" 
-        " section3 section3 section3 section3" 
+        "section3 section3 section3 section3" 
+        "section3 section3 section3 section3" 
         "footer footer footer footer"; 
     }
 
    /* Header Desktop */ 
 
-   header {
+   .head-top {
     position: relative;
-    background-image: url("../image/Fest\ arrangement-min.jpg");
+    background-image: url("../image/header-web-ny.jpg");
     height: 40vh;
-    width: 100%;
     background-position: center;
     background-size: cover;
 }
@@ -310,6 +408,9 @@ h2{
     transform: translate(-50%, -50%);
 } 
 
+
+
+
 .web-nav {
     grid-area: web-nav;
     display: inline-flex;
@@ -317,7 +418,7 @@ h2{
     border: grey 1px solid;
     position: absolute;
     bottom: 0;
-    
+    margin-left: -10px; 
     background-color: white;
     width: 100%;
     
@@ -336,7 +437,7 @@ ul li a {
     
 }
 
-.tilbage, .burgermenu {
+#arrow, #bars {
     display: none; 
     
 }
@@ -349,6 +450,10 @@ ul li a {
     .priser{ 
         display: none; 
     } 
+
+    .headline-nav {
+        display: none;
+    }
 
     .headerPriser{ 
         display: block; 
@@ -394,7 +499,7 @@ ul li a {
     .web-nav {
         display: grid; 
     }
-
+/*
     .navigation{ 
         list-style-type: none; 
     } 
@@ -402,7 +507,7 @@ ul li a {
     a{ 
         text-decoration: none; 
         color: #000000; 
-    } 
+    } */
 
 #backgroundClassicMest, #backgroundVinter, #backgroundEfterår, #backgroundForår, #backgroundSommer{ 
     width: 670px; 
@@ -505,6 +610,7 @@ ul li a {
 
     /* Footer */ 
     footer {
+        
         position: relative;
         padding-top: 5vh;
         background-color: #EBEBEB;
