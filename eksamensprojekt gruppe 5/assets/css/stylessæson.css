@@ -41,7 +41,12 @@ footer {
     grid-area: footer; 
 }
 
-
+.logo {   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
 
 .pmenu{ 
     display: block; 
@@ -178,7 +183,7 @@ h2{
     background-color: #FFFFFF; 
     color: #96192B; 
     text-align: center; 
-    box-shadow: 0px 5px rgba(0, 0, 0, 0.5); 
+   
 } 
 
 .headerDesktop{ 
@@ -310,7 +315,7 @@ h2{
     top: 50%; 
     left: 50%; 
     transform: translate(-50%, -50%);
-    width: 70%;
+    /* width: 70%; */
 
 }
 
@@ -320,7 +325,7 @@ h2{
     top: 64%; 
     left: 50%; 
     transform: translate(-50%, -64%);
-    font-weight: 400px;
+    font-weight: 400;
     width: 230px;
     text-shadow: 0px -0.5px 15px rgba(0, 0, 0, 0.87);
     color: white; 
@@ -718,7 +723,7 @@ ul li a {
 
     /* ul skal være med: position: relative;*/
 
-    .mobile-nav {
+    #bars, #arrow {
         display: none; 
     }
 
