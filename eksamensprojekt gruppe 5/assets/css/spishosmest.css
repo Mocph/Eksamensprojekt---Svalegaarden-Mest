@@ -209,6 +209,13 @@ h2{
     display: none; 
 } 
 
+.logo {   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+
 .menubackground{ 
     display: block; 
     width: 375px; 
@@ -720,7 +727,7 @@ ul li a {
 
     /* ul skal være med: position: relative;*/
 
-    .mobile-nav {
+    #bars, #arrow {
         display: none; 
     }
 
