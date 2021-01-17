@@ -144,6 +144,15 @@ footer {
     background-repeat: no-repeat;  
 }
 
+.sr-section_mindesammenkomst{
+    background-image: url("../image/mindesammenkomst-mobile.jpg");
+    background-size: 100% 147px;
+    background-position: top;
+    background-repeat: no-repeat;  
+}
+
+
+
 
 .btn-1, .btn-2, .btn-3, .btn-4, .btn-5{
     z-index: 1;
@@ -166,7 +175,18 @@ footer {
     border:1px solid white; 
 }
 
+.buttonstyle {
+    text-decoration: none;
+    list-style: none;  
+}
 
+#button:hover{
+    color: white;
+}
+
+#button {
+    color:#1B2557; 
+}
 
 
 .btn-1 {
@@ -346,10 +366,10 @@ footer {
 
 @media (min-width: 900px) {
     .container {
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: 5px repeat(5, 1fr) 5px;
         grid-auto-rows: minmax (100px, auto);
-        column-gap: 10px;
-        row-gap: 20px;
+        column-gap: 2px;
+        row-gap: 10px;
         
         /*
         grid-template-areas: 
@@ -379,6 +399,7 @@ footer {
         width: 100%; 
         background-position: center; 
         background-size: cover; 
+        margin-left: -10px; 
         /*
         position: absolute; 
         background-image: "#";*/
@@ -428,25 +449,30 @@ footer {
     .sr-section_bryllup {
         grid-column: 2; 
         grid-row: 3/4; 
-        width: 250px;
+        
     }
 
     .sr-section_konfirmation {
         grid-column: 3; 
         grid-row: 3/4; 
-        width: 250px;
+        
     }
 
     .sr-section_dåb-og-navngivning {
         grid-column: 4; 
         grid-row: 3/4; 
-        width: 250px;
+       
     }
 
     .sr-section_festarrangement {
         grid-column: 5; 
         grid-row: 3/4; 
-        width: 250px;
+        
+    }
+
+    .sr-section_mindesammenkomst {
+        grid-column: 6; 
+        grid-row: 3/4; 
     }
 
     .container {
@@ -466,6 +492,7 @@ footer {
         left: 50%; 
         transform: translate(-50%, -45%); 
         -ms-transform: translate(-50%, -45%);
+        padding: 10px 65px;
 
     }
 
@@ -476,6 +503,7 @@ footer {
         left: 50%; 
         transform: translate(-50%, -45%);
         -ms-transform: translate(-50%, 45%);
+        padding: 10px 40px;
 
     }
 
@@ -497,19 +525,34 @@ footer {
         left: 50%; 
         transform: translate(-50%, -45%);
         -ms-transform: translate(-50%, -45%);
-    }  
+    } 
+    
+    .btn-5 {
+        display: inline-block;
+        position: relative;
+        top: 45%;
+        left: 50%; 
+        transform: translate(-50%, -45%);
+        -ms-transform: translate(-50%, -45%);
+    } 
 
-    .sr-paragraph_bryllup , .sr-paragraph_dåb-og-navngivning, .sr-paragraph_festarrangement, .sr-paragraph_konfirmation {
-        height: 112px; 
+    .sr-paragraph_bryllup , .sr-paragraph_dåb-og-navngivning, .sr-paragraph_festarrangement, .sr-paragraph_konfirmation, .sr-paragraph_mindesammenkomst {
+        height: 130px; 
+        padding: 10px; 
+        padding-top: 30px; 
+        
 
     }
 
     footer {
         grid-column: 1/7;
-        grid-row: 8;  
+        grid-row: 5/9;  
         background-color: #EBEBEB; 
         height: 100%;
         position: relative;
+        margin-top: 20px; 
+        margin-right: -10px;
+        
          
     }
 
