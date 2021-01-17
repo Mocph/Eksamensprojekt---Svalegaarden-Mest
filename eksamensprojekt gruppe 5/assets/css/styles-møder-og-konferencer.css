@@ -386,18 +386,15 @@ footer {
         color: #666666;
     }
 
-    
-    
-    .mk-article_paragraph-pris-2 {
-        position: static;
-        margin-top: 100px; 
-        
-   
-    }   
 
-    .mk-article_paragraph-pris-3 {
-        margin-top: 70px; 
-    }
+
+    
+    
+    .mk-article_paragraph-pris-2, .mk-article_paragraph-pris-1, .mk-article_paragraph-pris-3{
+        position: static;
+    } 
+    
+ 
 
     .mk-paragraph_bold-1, .mk-paragraph_bold-2 ,.mk-paragraph_bold-3 {
         font-weight: bold;
@@ -406,6 +403,7 @@ footer {
     footer {
         position: relative;
         grid-column: 1/15; 
+        margin-top: 50px; 
     }
     
     .mk-section_headline-heldagsmøde, .mk-headline_dagsmøde-h3, .mk-section_headline-aftenmøde {
