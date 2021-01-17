@@ -435,6 +435,7 @@ footer {
         margin-right: 1vw;
         padding: 10px;
         background-color: rgb(223, 226, 33);
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
         border: none;
         color: #ffffff;
 }
