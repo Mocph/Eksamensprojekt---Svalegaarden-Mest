@@ -439,6 +439,8 @@ footer {
         background-color: rgb(223, 226, 33);
         border: none;
         color: #ffffff;
+        cursor: pointer;
+        
 }
 
     .btn2 {
