@@ -120,35 +120,35 @@ ul li a:hover {
 }
 
 .sr-section_bryllup {
-    background-image: url("../image-selskaber/bryllup-arrangement147.jpg");
+    background-image: url("../image-selskaber/bryllup-arrangement147.jpg"); /*Kilde: https://unsplash.com/photos/M2T1j-6Fn8w*/
     background-size: 100% 147px;
     background-position: top;
     background-repeat: no-repeat;
 }
 
 .sr-section_konfirmation {
-    background-image: url("../image-selskaber/Konfirmation147.jpg");
+    background-image: url("../image-selskaber/Konfirmation147.jpg"); /*Kilde: https://unsplash.com/photos/kq84E5eR54g*/
     background-size: 100% 147px;
     background-position: top;
     background-repeat: no-repeat;
 }
 
 .sr-section_dåb-og-navngivning {
-    background-image: url("../image-selskaber/Dåb-og-navngivning147.jpg");
+    background-image: url("../image-selskaber/Dåb-og-navngivning147.jpg"); /*Kilde:  https://unsplash.com/photos/YetXBrsPqBE*/
     background-size: 100% 147px;
     background-position: top;
     background-repeat: no-repeat;
 }
 
 .sr-section_festarrangement{
-    background-image: url("../image-selskaber/Fest-arrangement147.jpg");
+    background-image: url("../image-selskaber/Fest-arrangement147.jpg"); /*Kilde: https://unsplash.com/photos/ULHxWq8reao*/
     background-size: 100% 147px;
     background-position: top;
     background-repeat: no-repeat;  
 }
 
 .sr-section_mindesammenkomst{
-    background-image: url("../image/mindesammenkomst-mobile.jpg");
+    background-image: url("../image/mindesammenkomst-mobile.jpg"); /*Kilde: https://unsplash.com/photos/awj7sRviVXo*/
     background-size: 100% 147px;
     background-position: top;
     background-repeat: no-repeat;  
@@ -479,7 +479,7 @@ footer {
     }
 
     .container {
-        background-image: url("../image-selskaber/Fest\ arrangement.jpg");
+        background-image: url("../image/Fest\ arrangement-min.jpg"); /*Kilde: https://unsplash.com/photos/ULHxWq8reao*/
         background-attachment: fixed;
         background-position: center;
         background-size: 100%;

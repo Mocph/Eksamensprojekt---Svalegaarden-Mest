@@ -159,7 +159,7 @@ footer {
 
     .articleimage {
         position: relative;
-        background-image: url("../image/meeting-min.jpg");
+        background-image: url("../image/meeting-min.jpg"); /* Kilde: https://unsplash.com/photos/Hb6uWq0i4MI */
         background-size: cover;
         background-position: top;
         height: 25vh;
@@ -356,7 +356,7 @@ footer {
         grid-area: section4;
         color: white;
         padding-bottom: 5vh;
-        background-image: url("../image/meeting-min.jpg");
+        background-image: url("../image/meeting-min.jpg"); /* Kilde: https://unsplash.com/photos/Hb6uWq0i4MI */
         background-position: center;
         background-size: cover;
     

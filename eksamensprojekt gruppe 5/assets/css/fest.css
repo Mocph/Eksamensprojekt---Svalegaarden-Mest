@@ -164,7 +164,7 @@ ul li a:hover {
 
     .articleimage {
         position: relative;
-        background-image: url("../image/Fest\ arrangement-min.jpg");
+        background-image: url("../image/Fest\ arrangement-min.jpg"); /*Kilde: https://unsplash.com/photos/ULHxWq8reao*/
         background-size: cover;
         background-position: top;
         height: 25vh;
@@ -273,7 +273,7 @@ footer {
 
 @media (min-width: 900px) {
     .container {
-        background-image: url("../image/Fest\ arrangement-min.jpg");
+        background-image: url("../image/Fest\ arrangement-min.jpg"); /*Kilde: https://unsplash.com/photos/ULHxWq8reao*/
         background-position: center;
         background-size: cover;
         display: grid;

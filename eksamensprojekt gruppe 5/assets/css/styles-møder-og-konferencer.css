@@ -137,21 +137,7 @@ ul li a:hover {
 }
 
 
-.mk-article_paragraph-pris-1, .mk-article_paragraph-pris-2 ,.mk-article_paragraph-pris-3 {
-    /* box-sizing: border-box;
-    background-color:#31571b;  
-    color: white; 
-    width: 40%;
-    padding: 5px; 
-    padding-top: 10px; 
-    padding-bottom: 10px; 
-    text-align: center; 
-    border-radius: 2.5px; 
-    display: block; 
-    float: right;
-    margin-top: 5px;  */
-    
-}
+
 
 .btn {
     position: absolute;
@@ -162,6 +148,7 @@ ul li a:hover {
     bottom: -2vh;
     right: 2vw;
     font-weight: 600;
+    color: white;
     
 
 }
@@ -284,7 +271,7 @@ footer {
 
 @media (min-width: 900px) {
     .container {
-        background-image: url("../image/Møder\ og\ konferencer.jpg");
+        background-image: url("../image/Møder\ og\ konferencer-min.jpg"); /*Kilde: https://unsplash.com/photos/OQMZwNd3ThU*/
         background-position: center;
         background-size: cover;
         column-gap: 20px;

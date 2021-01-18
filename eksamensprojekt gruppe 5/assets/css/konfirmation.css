@@ -147,7 +147,7 @@ ul li a:hover {
 
     .articleimage {
         position: relative;
-        background-image: url("../image/daniel-tseng-QCjC1KpA4nA-unsplash.jpg");
+        background-image: url("../image/daniel-tseng-QCjC1KpA4nA-unsplash-min.jpg"); /*Kilde: https://unsplash.com/photos/QCjC1KpA4nA*/
         background-size: cover;
         background-position: top;
         height: 25vh;
@@ -357,7 +357,7 @@ footer {
         color: white;
         padding-top: 5vh;
         padding-bottom: 20vh;
-        background-image: url("../image/gardie-design-social-media-marketing-Nuau0vx6vk8-unsplash-min.jpg");
+        background-image: url("../image/daniel-tseng-QCjC1KpA4nA-unsplash-min.jpg"); /*Kilde: https://unsplash.com/photos/QCjC1KpA4nA*/
         background-position: center;
         background-size: cover;
     

@@ -112,7 +112,7 @@ ul li a:hover {
 }
 
 .år-section_forår {
-    background-image: url("../image/classicmenu147.jpg");
+    background-image: url("../image/classicmenu147.jpg"); 
     background-size: 100% 147px;
     background-position: top;
     background-repeat: no-repeat;
@@ -455,7 +455,7 @@ footer {
     
 
     .container {
-        background-image: url("../image-selskaber/Fest\ arrangement.jpg");
+        background-image: url("../image-selskaber/Fest\ arrangement.jpg"); /*Kilde: https://unsplash.com/photos/ULHxWq8reao*/
         background-attachment: fixed;
         background-position: center;
         background-size: 100%;

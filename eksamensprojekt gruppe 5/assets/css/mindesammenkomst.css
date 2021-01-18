@@ -162,7 +162,7 @@ ul li a:hover {
         text-align: center;
         color: white;
         padding-bottom: 5vh;
-        background-color: #96192B;
+        background-color: #1B2557;
         line-height: 2;
     }
 
@@ -208,7 +208,7 @@ ul li a:hover {
 
     .articleimage {
         position: relative;
-        background-image: url("../image/Menu-min.jpg");
+        background-image: url("../image/Menu-min.jpg"); /*Kilde: https://unsplash.com/photos/awj7sRviVXo*/
         background-size: cover;
         background-position: 50% 70%;
         height: 25vh;
@@ -366,7 +366,7 @@ footer {
         grid-area: section4;
         color: white;
         padding-bottom: 5vh;
-        background-image: url("../image/casey-lee-awj7sRviVXo-unsplash-min.jpg");
+        background-image: url("../image/casey-lee-awj7sRviVXo-unsplash-min.jpg"); /*Kilde: https://unsplash.com/photos/awj7sRviVXo*/
         background-position: 30%;
         background-size: cover;
     
@@ -400,7 +400,7 @@ footer {
         outline-offset: 10px;
         padding-bottom:10vh;
         margin-top: 40px;
-        background-color: #96192cda;
+        background-color: #1b2557d8;
     }
 
     

@@ -198,7 +198,7 @@ ul li a:hover {
 
     .articleimage {
         position: relative;
-        background-image: url("../image/Dåb\ og\ navngivning-min.jpg");
+        background-image: url("../image/Dåb\ og\ navngivning-min.jpg"); /*Kilde: https://unsplash.com/photos/YetXBrsPqBE*/
         background-size: cover;
         background-position: center;
         height: 25vh;
@@ -409,7 +409,7 @@ footer {
     .maincontainer {
         display: flex;
         justify-content: space-evenly;
-        background-image: url("../image/Dåb\ og\ navngivning-min.jpg");
+        background-image: url("../image/Dåb\ og\ navngivning-min.jpg"); /*Kilde: https://unsplash.com/photos/YetXBrsPqBE*/
         background-size: cover;
         background-position: center;
         padding-top: 10vh;

@@ -198,7 +198,7 @@ ul li a:hover {
 
     .articleimage {
         position: relative;
-        background-image: url("../image/Buffet\ 2-min.jpg");
+        background-image: url("../image/Buffet\ 2-min.jpg"); /* Kilde: https://unsplash.com/photos/SiwrpBnxDww */
         background-size: cover;
         background-position: center;
         height: 25vh;
@@ -385,7 +385,7 @@ footer {
         grid-area: section4;
         color: white;
         padding-bottom: 15vh;
-        background-image: url("../image/Buffet\ 2-min.jpg");
+        background-image: url("../image/Buffet\ 2-min.jpg"); /* Kilde: https://unsplash.com/photos/SiwrpBnxDww */
         background-position: center;
         background-size: cover;
     

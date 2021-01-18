@@ -359,7 +359,7 @@ footer {
         grid-area: section4;
         color: white;
         padding-bottom: 5vh;
-        background-image: url("../image/Kontakt-min.jpg");
+        background-image: url("../image/Kontakt-min.jpg"); /*Kilde: https://unsplash.com/photos/Dkn8-zPIbwo*/
         background-position: center;
         background-size: cover;
         padding-bottom: 20vh;

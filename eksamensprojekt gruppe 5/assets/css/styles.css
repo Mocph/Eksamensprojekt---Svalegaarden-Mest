@@ -108,7 +108,7 @@ header {position: relative;
 
 
 .sp-section_selskaber {
-    background-image: url("../image/Bryllup-lys-\(1-147\).jpg");
+    background-image: url("../image/Bryllup-lys-\(1-147\).jpg"); 
     background-size: 100% 147px;
     background-position: top;
     background-repeat: no-repeat;
@@ -228,7 +228,7 @@ header {position: relative;
 
 
 .sp-section_møder-og-konferencer {
-    background-image: url("../image/Møder-og-konferencer3.jpg");
+    background-image: url("../image/Møder-og-konferencer2.jpg"); /*Kilde: https://unsplash.com/photos/OQMZwNd3ThU*/
     background-size: 100% 147px;
     background-position: top;
     background-repeat: no-repeat;

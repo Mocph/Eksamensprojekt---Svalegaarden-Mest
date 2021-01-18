@@ -82,7 +82,7 @@ ul li a:hover {
 } 
 
 #sommerimage{ 
-    background-image: url("../image/Sommer1.jpg"); 
+    background-image: url("../image/Sommer1.jpg"); /*Kilde: https://unsplash.com/photos/ltE8bDLjX9E*/
     height: 140px; 
     background-size: cover; 
     margin-top: 30px; 
@@ -95,8 +95,10 @@ ul li a:hover {
     margin-top: 30px; 
 } 
 
+
+
 #classicimage{ 
-    background-image: url("../image/Classic\ menu.jpg"); 
+    background-image: url("../image/Classic\ menu.jpg"); /* kilde: https://unsplash.com/photos/-YHSwy6uqvk*/
     height: 140px; 
     background-size: cover; 
     margin-top: 30px; 
@@ -117,12 +119,12 @@ ul li a:hover {
 } 
 
 #menubrunch{ 
-    background-image: url("/assets/image/brunch.jpg"); 
+    background-image: url("/assets/image/brunch.jpg"); /* Kilde: https://unsplash.com/photos/4xu6kse823E */
   /*   background-position: */ 
 } 
 
 #menubuffet{ 
-    background-image: url("/assets/image/Buffet\ 2.jpg"); 
+    background-image: url("/assets/image/Buffet\ 2.jpg"); /* Kilde: https://unsplash.com/photos/SiwrpBnxDww */
    /* background-position: */ 
 } 
 
@@ -514,7 +516,7 @@ ul li a {
 
     /* Baggrundsbillede menuer desktop */ 
     #backgroundDesktopClassic{ 
-        background-image: url("../image/Classic\ menu.jpg"); 
+        background-image: url("../image/Classic\ menu.jpg"); /*Kilde: https://unsplash.com/photos/-YHSwy6uqvk*/
         height: 1200px; 
     } 
 
@@ -529,7 +531,7 @@ ul li a {
     } 
 
     #backgroundDesktopSommer{ 
-        background-image: url("../image/Sommer1.jpg"); 
+        background-image: url("../image/Sommer1.jpg"); /*Kilde: https://unsplash.com/photos/ltE8bDLjX9E*/
         height: 1350px; 
     } 
 
@@ -539,7 +541,7 @@ ul li a {
     } 
 
     #backgroundDesktopSvalegaarden{ 
-        background-image: url("../image/Sommer1.jpg"); 
+        background-image: url("../image/Sommer1.jpg"); /*Kilde: https://unsplash.com/photos/ltE8bDLjX9E*/
         height: 1000px; 
     } 
 

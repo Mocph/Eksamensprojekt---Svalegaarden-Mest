@@ -112,21 +112,21 @@ ul li a:hover {
 }
 
 .bf-section_lokalbuffet {
-    background-image: url("../image/Brunch-min.jpg");
+    background-image: url("../image/Brunch-min.jpg"); /*Kilde: https://unsplash.com/photos/4xu6kse823E*/
     background-size: 100% 147px;
     background-position: top;
     background-repeat: no-repeat;
 }
 
 .bf-section_helårsbuffet {
-    background-image: url("../image/Buffet\ 2-min.jpg");
+    background-image: url("../image/Buffet\ 2-min.jpg"); /*Kilde: https://unsplash.com/photos/SiwrpBnxDww*/
     background-size: 100% 147px;
     background-position: top;
     background-repeat: no-repeat;
 }
 
 .bf-section_vinterbuffet {
-    background-image: url("../image/Classisk\ menu-min.jpg");
+    background-image: url("../image/Classisk\ menu-min.jpg"); /*Kilde: https://unsplash.com/photos/-YHSwy6uqvk*/
     background-size: 100% 147px;
     background-position: top;
     background-repeat: no-repeat;
