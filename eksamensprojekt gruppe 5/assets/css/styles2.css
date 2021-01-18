@@ -119,14 +119,14 @@ ul li a:hover {
 }
 
 .bf-section_helårsbuffet {
-    background-image: url("../image/Buffet\ 2-min.jpg"); /*Kilde: https://unsplash.com/photos/SiwrpBnxDww*/
+    background-image: url("../image/Buffet-2-min.jpg"); /*Kilde: https://unsplash.com/photos/SiwrpBnxDww*/
     background-size: 100% 147px;
     background-position: top;
     background-repeat: no-repeat;
 }
 
 .bf-section_vinterbuffet {
-    background-image: url("../image/Classisk\ menu-min.jpg"); /*Kilde: https://unsplash.com/photos/-YHSwy6uqvk*/
+    background-image: url("../image/Classisk-menu-min.jpg"); /*Kilde: https://unsplash.com/photos/-YHSwy6uqvk*/
     background-size: 100% 147px;
     background-position: top;
     background-repeat: no-repeat;
@@ -140,7 +140,7 @@ ul li a:hover {
 }
 
 .bf-section_classicbuffet{
-    background-image: url("../image/spis\ hos\ mest.jpg");
+    background-image: url("../image/spis-hos-mest.jpg");
     background-size: 100% 147px;
     background-position: top;
     background-repeat: no-repeat;  
@@ -347,7 +347,7 @@ footer {
         column-gap: 2px;
         row-gap: 10px;
 
-        background-image: url("../image/Mad\ baggrund-min.jpg");
+        background-image: url("../image/Mad-baggrund-min.jpg");
         background-attachment: fixed;
         background-position: center;
         background-size: 100%;
